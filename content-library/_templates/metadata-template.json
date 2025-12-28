@@ -1,0 +1,23 @@
+{
+  "date_created": "",
+  "title": "",
+  "platform": [],
+  "audience": "",
+  "theme": "",
+  "hook_type": "",
+  "status": "draft",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [],
+  "tags": [],
+  "safety_review": "",
+  "word_count": null
+}

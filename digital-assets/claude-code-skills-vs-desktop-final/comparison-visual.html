@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code: Skills vs Desktop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            background: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 1200px;
+            height: 675px;
+            background: white;
+            border-radius: 0;
+            padding: 0;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            padding: 48px 60px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 44px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .header p {
+            font-size: 20px;
+            color: #cbd5e1;
+            font-weight: 400;
+        }
+
+        .content {
+            padding: 48px 60px;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .column {
+            position: relative;
+        }
+
+        .column-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 3px solid;
+        }
+
+        .column.desktop .column-header {
+            border-color: #3b82f6;
+        }
+
+        .column.skills .column-header {
+            border-color: #8b5cf6;
+        }
+
+        .icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .column.desktop .icon {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            color: white;
+        }
+
+        .column.skills .icon {
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            color: white;
+        }
+
+        .column-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: #1e293b;
+        }
+
+        .feature-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .feature-bullet {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-top: 8px;
+            flex-shrink: 0;
+        }
+
+        .column.desktop .feature-bullet {
+            background: #3b82f6;
+        }
+
+        .column.skills .feature-bullet {
+            background: #8b5cf6;
+        }
+
+        .feature-text {
+            font-size: 17px;
+            line-height: 1.6;
+            color: #475569;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #f1f5f9;
+            padding: 24px 60px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .insight {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        .insight-highlight {
+            color: #8b5cf6;
+        }
+
+        .attribution {
+            font-size: 14px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Claude Code: Skills vs Desktop</h1>
+            <p>Two workflows. Different strengths.</p>
+        </div>
+
+        <div class="content">
+            <div class="comparison-grid">
+                <!-- Desktop Column -->
+                <div class="column desktop">
+                    <div class="column-header">
+                        <div class="icon">💬</div>
+                        <div class="column-title">Claude Desktop</div>
+                    </div>
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">One-click MCP server installation</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">Conversational, iterative workflow</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">Perfect for exploration and prototyping</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">Feels like pair programming</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text"><strong>Best for:</strong> Maximum control, step-by-step guidance</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Skills Column -->
+                <div class="column skills">
+                    <div class="column-header">
+                        <div class="icon">⚡</div>
+                        <div class="column-title">Claude Code Skills</div>
+                    </div>
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">Plugin marketplace for instant deployment</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">Autonomous multi-step task execution</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">Direct terminal integration with build tools</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text">Handles entire workflows from single prompt</span>
+                        </li>
+                        <li class="feature-item">
+                            <span class="feature-bullet"></span>
+                            <span class="feature-text"><strong>Best for:</strong> Speed to value, automated workflows</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content">
+                <div class="insight">
+                    The Pattern: <span class="insight-highlight">Skills for speed. Desktop for control.</span>
+                </div>
+                <div class="attribution">
+                    Built with Claude Code Skills
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

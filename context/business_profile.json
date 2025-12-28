@@ -1,0 +1,317 @@
+{
+    "profile_owner": "Diego Vences, MBA, MSBA",
+    "file_type": "business_profile",
+    "last_updated": "2025-12-26",
+    "version": "2.0",
+    "strategic_context": {
+      "current_situation": "Employed at MoneyGram, cannot publicly announce agency",
+      "positioning_goal": "Build credibility as AI-native business operator without selling services",
+      "timeline": {
+        "now": "Build credibility through content and projects",
+        "6_18_months": "Attract Product/Marketing role opportunities",
+        "2026": "Launch AI agency targeting US SMBs"
+      }
+    },
+  
+    "linkedin_profile": {
+      "headline": {
+        "recommended": "Senior Sales Manager @ MoneyGram | Building AI-powered systems for GTM, ops & product | 20+ automation projects",
+        "rationale": "Shows real job (safe), building things (credibility), understands business functions (not just AI as toy)"
+      },
+      
+      "about_section": {
+        "recommended": "I've spent 10 years in sales and GTM. Now I build AI systems that do what used to take teams weeks.\n\nNot because AI is trendy—because I got tired of watching good strategies die in execution.\n\nWhat I'm working on now:\n• Automating the boring parts of sales ops\n• Building internal tools that actually get used\n• Figuring out where AI creates leverage vs. where it creates noise\n\nI share what I'm learning here. Sometimes it works. Sometimes it doesn't. That's the point.",
+        "rationale": "Frames as practitioner, not consultant. Employer-safe, recruiter-attractive, builds agency credibility without announcing it.",
+        "what_it_signals": {
+          "to_moneygram": "Forward-thinking employee investing in skills",
+          "to_recruiters": "Sales leader who's evolved into product/ops thinking",
+          "to_future_clients": "Someone who clearly knows what they're doing"
+        }
+      },
+  
+      "featured_section": {
+        "recommended_content": [
+          "Best 'What I Built' post with engagement",
+          "Framework carousel that demonstrates thinking",
+          "Article or post showing cross-functional perspective"
+        ],
+        "avoid": [
+          "Anything that looks like a service offering",
+          "Content that's too sales-focused without evolution angle"
+        ]
+      }
+    },
+  
+    "positioning": {
+      "primary_identity": "AI-native business operator",
+      
+      "one_liner_options": {
+        "for_linkedin": "Building AI systems that turn GTM strategies into execution",
+        "for_conversations": "I build the automation layer that makes sales and product actually work together",
+        "for_future_agency": "Helping boring businesses automate the work nobody wants to do"
+      },
+  
+      "what_makes_this_different": [
+        "Not 'AI consultant'—too agency-forward, risky with employer",
+        "Not 'Sales leader'—too backward-looking for where Diego is going",
+        "Not 'Product manager'—doesn't have the title yet",
+        "AI-native business operator = practitioner who builds, not advisor who talks"
+      ],
+  
+      "unique_value_propositions": [
+        {
+          "proposition": "Tri-force: Sales execution + Product thinking + Technical building",
+          "proof": "$30M+ B2B sales, 20+ AI projects built, SQL/Python/Power BI skills",
+          "when_to_lead_with": "Product/Marketing role conversations"
+        },
+        {
+          "proposition": "Builder who ships, not consultant who decks",
+          "proof": "Actual automations, tools, and systems shared publicly",
+          "when_to_lead_with": "All content—this is the core differentiator"
+        },
+        {
+          "proposition": "Boring business specialist",
+          "proof": "Case studies from HVAC/trades (build these through 'helping friends')",
+          "when_to_lead_with": "Future agency positioning"
+        }
+      ]
+    },
+  
+    "proof_points": {
+      "verifiable": [
+        {
+          "claim": "$30M+ in B2B sales",
+          "context": "MoneyGram and previous roles",
+          "use_in_content": "Establishes business credibility"
+        },
+        {
+          "claim": "20+ AI projects built",
+          "context": "Personal projects, internal tools, automations",
+          "use_in_content": "Core credibility for AI-native positioning"
+        },
+        {
+          "claim": "MBA + MSBA credentials",
+          "context": "Hult International Business School",
+          "use_in_content": "Sparingly—let the work speak"
+        },
+        {
+          "claim": "PhD candidate (AI adoption in SMBs)",
+          "context": "Westcliff University",
+          "use_in_content": "When relevant to thought leadership"
+        }
+      ],
+      "to_build": [
+        {
+          "needed": "Boring business case studies",
+          "how": "Help friends/family in HVAC, trades, services—document learnings",
+          "framing": "'I've been helping a friend automate their HVAC business'"
+        },
+        {
+          "needed": "Public portfolio of builds",
+          "how": "Share screenshots, workflows, results on LinkedIn",
+          "framing": "'Here's what I built this week'"
+        },
+        {
+          "needed": "Cross-functional project examples",
+          "how": "Document any product-sales alignment work at MoneyGram (carefully)",
+          "framing": "'A pattern I've noticed working across teams'"
+        }
+      ]
+    },
+  
+    "philosophy_and_beliefs": {
+      "core_principles": [
+        {
+          "principle": "Integration over experimentation",
+          "meaning": "The real work is connecting AI to existing workflows, not running pilots",
+          "content_angle": "Most AI fails because of integration, not the AI"
+        },
+        {
+          "principle": "Boring before brilliant",
+          "meaning": "Automate the unsexy stuff first—scheduling, follow-ups, reporting",
+          "content_angle": "The biggest opportunities are in the most boring businesses"
+        },
+        {
+          "principle": "Systems over tools",
+          "meaning": "Any tool is 20% of the value. The system is 80%.",
+          "content_angle": "Stop evaluating tools. Start designing systems."
+        },
+        {
+          "principle": "Outcomes before technology",
+          "meaning": "Start with the business problem, not the shiny solution",
+          "content_angle": "What problem are you actually solving?"
+        },
+        {
+          "principle": "Show the work",
+          "meaning": "Learning in public builds trust faster than polished expertise",
+          "content_angle": "Here's what worked. Here's what didn't. Here's what I'd do differently."
+        }
+      ],
+      "beliefs_to_express": [
+        "The best AI implementations are invisible to users",
+        "Customization is often a trap—simplicity usually wins",
+        "Speed of execution matters more than perfect strategy",
+        "Small businesses have bigger AI opportunities than enterprises",
+        "The future belongs to people who can build, not just advise"
+      ]
+    },
+  
+    "competitive_positioning": {
+      "not_competing_with": [
+        {
+          "competitor_type": "Large consulting firms",
+          "why_different": "Too slow, too expensive, too theoretical. Diego builds."
+        },
+        {
+          "competitor_type": "Pure AI developers",
+          "why_different": "They lack business strategy and GTM understanding"
+        },
+        {
+          "competitor_type": "Traditional sales trainers",
+          "why_different": "No tech implementation capability"
+        },
+        {
+          "competitor_type": "AI influencers",
+          "why_different": "They talk. Diego ships."
+        }
+      ],
+      "actual_competition": [
+        "Other fractional executives in digital transformation",
+        "AI implementation specialists targeting SMBs",
+        "Product strategy consultants who can also execute"
+      ],
+      "winning_factors": [
+        "Unique combination: sales + product + technical execution",
+        "Practitioner who builds, not just advises",
+        "Thought leadership + execution proof",
+        "SMB-friendly approach (not enterprise-focused)"
+      ]
+    },
+  
+    "agency_positioning_for_2026": {
+      "status": "Quiet build—do not announce publicly",
+      "target_market": {
+        "geography": "United States",
+        "company_size": "SMBs, $1M-$20M revenue",
+        "industries": {
+          "initial": ["HVAC", "Plumbing", "Electrical", "Trades"],
+          "expansion": ["Local services", "Professional services"]
+        },
+        "rationale": "High revenue, low tech adoption, underserved, pay for results"
+      },
+      "service_concept": {
+        "core_offer": "AI automation systems for boring businesses",
+        "delivery": "Done-for-you implementation, not consulting",
+        "focus": "Quick wins first, then expand"
+      },
+      "how_to_build_toward_it": [
+        {
+          "action": "Help friends/family in target industries",
+          "content_frame": "'Helping a friend automate their HVAC business—here's what I learned'"
+        },
+        {
+          "action": "Build case studies without calling them case studies",
+          "content_frame": "'Before/after of a scheduling system I built'"
+        },
+        {
+          "action": "Establish 'boring business' expertise",
+          "content_frame": "'The biggest AI opportunities are in industries nobody's talking about'"
+        },
+        {
+          "action": "Create inbound without outbound",
+          "content_frame": "When someone DMs 'do you do this for clients?'—that's the signal"
+        }
+      ],
+      "what_not_to_do": [
+        "Announce the agency publicly",
+        "Offer services directly on LinkedIn",
+        "Use language that sounds like moonlighting",
+        "Create a separate agency LinkedIn page (yet)"
+      ]
+    },
+  
+    "career_pivot_positioning": {
+      "target_roles": [
+        "Product Manager / Senior PM",
+        "Product Marketing Manager",
+        "GTM Strategy / Operations",
+        "Marketing Operations"
+      ],
+      "target_companies": {
+        "type": "US tech companies, mid-size to growth stage",
+        "characteristics": "Value cross-functional experience, building capability, AI-native thinking"
+      },
+      "signals_to_send": [
+        {
+          "signal": "Product thinking",
+          "how": "Use product language: user problems, adoption, workflow design, internal tools"
+        },
+        {
+          "signal": "Technical credibility",
+          "how": "Show actual builds, not just tool usage"
+        },
+        {
+          "signal": "Cross-functional experience",
+          "how": "'Built this to solve a gap between sales and product'"
+        },
+        {
+          "signal": "AI-native approach",
+          "how": "Every post should demonstrate AI fluency"
+        }
+      ],
+      "recruiter_perception_goal": "This person thinks like a PM, has sales credibility, AND can actually build things"
+    },
+  
+    "content_strategy_summary": {
+      "posting_frequency": "Twice weekly",
+      "primary_pillars": {
+        "80_percent": [
+          "What I Built This Week",
+          "AI for Ops & GTM",
+          "Lessons from Sales (Evolved)"
+        ]
+      },
+      "secondary_pillars": {
+        "20_percent": [
+          "Tool reviews (practitioner perspective)",
+          "Framework shares (carousels)"
+        ]
+      },
+      "stop": [
+        "Consulting offers",
+        "Peru/LatAm content",
+        "Generic AI hype",
+        "Agency announcements"
+      ],
+      "measure_success_by": [
+        "Inbound DMs asking about work",
+        "Recruiter outreach for PM/Marketing roles",
+        "Engagement from SMB owners",
+        "Profile views from target audience"
+      ]
+    },
+  
+    "immediate_actions": [
+      {
+        "action": "Update LinkedIn headline",
+        "new_headline": "Senior Sales Manager @ MoneyGram | Building AI-powered systems for GTM, ops & product | 20+ automation projects"
+      },
+      {
+        "action": "Rewrite About section",
+        "use": "Recommended version in this document"
+      },
+      {
+        "action": "Audit next 10 posts",
+        "criteria": "Does each fit the three pillars?"
+      },
+      {
+        "action": "Start one boring business case study",
+        "approach": "Help a friend, document learnings"
+      },
+      {
+        "action": "Remove/reduce LatAm content",
+        "reason": "Targeting US market now"
+      }
+    ]
+  }
+  

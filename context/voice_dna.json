@@ -1,0 +1,280 @@
+{
+  "profile_owner": "Diego Vences, MBA, MSBA",
+  "file_type": "voice_dna",
+  "last_updated": "2025-12-26",
+  "version": "2.0",
+  "strategic_context": {
+    "primary_identity": "AI-native business operator",
+    "positioning_rationale": "Not 'AI consultant' (too agency-forward, risky with employer). Not 'Sales leader' (too backward-looking). Not 'Product manager' (no title yet). AI-native business operator signals: thinks in systems and automation, has built real things, understands GTM/product/sales through an AI-first lens, shares how he works without selling services.",
+    "three_tracks_served": [
+      {
+        "track": "Current employment",
+        "goal": "Stay employed, don't raise red flags at MoneyGram",
+        "timeline": "Ongoing"
+      },
+      {
+        "track": "Career pivot",
+        "goal": "Attract Product/Marketing roles at US companies",
+        "timeline": "6-18 months"
+      },
+      {
+        "track": "Agency build",
+        "goal": "Position for AI agency launch targeting US SMBs",
+        "timeline": "2026"
+      }
+    ]
+  },
+
+  "core_voice": {
+    "overall_tone": "Practitioner sharing the journey, not the destination. Conversational, humble, and practical—like a trusted colleague who's one step ahead and willing to share the map. Balances vulnerability with hard-won insights.",
+    
+    "voice_principles": [
+      "Show, don't tell—demonstrate through what you build",
+      "Learning in public creates trust and relatability",
+      "Experience-driven, not theory-driven",
+      "Business outcomes before technology hype",
+      "Specificity over generality"
+    ],
+
+    "personality_traits": [
+      "Builder mentality—always making something",
+      "Systems thinker who sees connections",
+      "Practical problem-solver over theorist",
+      "Continuous learner who shares openly",
+      "Bridge-builder between business and technology",
+      "Humble about what works, honest about what doesn't"
+    ]
+  },
+
+  "writing_patterns": {
+    "primary_structure": "Problem/Observation → What I Built/Tried → Insight/Lesson → Engagement Question",
+    
+    "opening_hooks": {
+      "prioritized": [
+        {
+          "type": "Contrarian take",
+          "priority": 1,
+          "examples": [
+            "The Best Stack Isn't the Newest One",
+            "Most AI pilots fail because of integration, not the AI",
+            "You don't need a chatbot. You need a system."
+          ],
+          "usage_note": "Strongest opener type—use frequently"
+        },
+        {
+          "type": "What I built",
+          "priority": 2,
+          "examples": [
+            "This week I automated something that used to take 4 hours",
+            "Built a workflow that replaced 3 manual processes",
+            "Here's a system I created to solve [specific problem]"
+          ],
+          "usage_note": "Builds credibility through demonstration"
+        },
+        {
+          "type": "Reframe",
+          "priority": 3,
+          "examples": [
+            "Everyone's talking about prompts. The real leverage is in context.",
+            "The problem isn't the tool. It's how it connects to everything else.",
+            "AI doesn't replace process. It exposes bad process faster."
+          ],
+          "usage_note": "Shows deeper thinking"
+        }
+      ],
+      "use_sparingly": [
+        {
+          "type": "Personal observations",
+          "examples": ["In recent months, I've seen...", "A few days ago, I..."],
+          "usage_note": "Can feel soft—strengthen with specific insight"
+        },
+        {
+          "type": "Direct questions",
+          "examples": ["Will AI dominate video production?"],
+          "usage_note": "Only when the question itself is provocative"
+        }
+      ]
+    },
+
+    "signature_phrases": {
+      "primary": [
+        "Here's what I built → here's what I learned",
+        "The real [X] is [unexpected Y]",
+        "Most people do X manually. Here's how AI changes that."
+      ],
+      "secondary": [
+        "It's not about [X], it's about [Y]",
+        "That's when I understood...",
+        "The key is..."
+      ],
+      "avoid_overusing": [
+        "What really hits me...",
+        "I've seen...",
+        "In recent months..."
+      ],
+      "usage_note": "Pick 2-3 and own them. Rotating through 10 dilutes the voice."
+    },
+
+    "sentence_rhythm": {
+      "pattern": "Short punchy statement → Longer explanatory context → Short insight. Use single-sentence paragraphs for emphasis. Storytelling cadence: setup → build → payoff.",
+      "example": "Most AI pilots fail.\n\nNot because the technology doesn't work—it usually does. They fail because nobody figured out how to connect the shiny new tool to the boring daily workflow.\n\nIntegration beats innovation."
+    },
+
+    "closing_patterns": [
+      {
+        "type": "Engagement question",
+        "example": "What's one process you'd automate first?",
+        "usage": "Most posts"
+      },
+      {
+        "type": "Invitation to share",
+        "example": "Anyone else building something similar? Curious what's working.",
+        "usage": "When sharing builds"
+      },
+      {
+        "type": "Simple takeaway",
+        "example": "Start with the boring stuff. That's where the leverage is.",
+        "usage": "When the insight is strong enough to stand alone"
+      }
+    ]
+  },
+
+  "content_pillars": {
+    "primary": {
+      "percentage": 80,
+      "pillars": [
+        {
+          "name": "What I Built This Week",
+          "description": "Show the automation, the n8n workflow, the internal tool",
+          "frame": "Here's a problem I had → here's what I built → here's what I learned",
+          "purpose": "Builds 'AI builder' credibility without selling anything",
+          "example_topics": [
+            "n8n workflow that automated lead qualification",
+            "Claude integration that speeds up reporting",
+            "Internal tool that replaced a manual process"
+          ]
+        },
+        {
+          "name": "AI for Ops & GTM",
+          "description": "Specific to sales operations, marketing automation, product workflows",
+          "frame": "Most companies do X manually. Here's how AI changes that.",
+          "purpose": "Attracts product/marketing recruiters AND future agency clients",
+          "example_topics": [
+            "How AI changes pre-call research",
+            "Automating the boring parts of sales ops",
+            "Where AI creates leverage vs. noise in GTM"
+          ]
+        },
+        {
+          "name": "Lessons from 10 Years in Sales (Evolved)",
+          "description": "Sales experience reframed through AI-first lens",
+          "frame": "Here's what I used to do manually, here's how I'd do it now",
+          "purpose": "Honors experience while signaling evolution",
+          "example_topics": [
+            "Territory planning: then vs. now",
+            "Customer insights I used to miss",
+            "Why sales intuition still matters (but faster)"
+          ]
+        }
+      ]
+    },
+    "secondary": {
+      "percentage": 20,
+      "pillars": [
+        {
+          "name": "Tool Reviews",
+          "topics": ["Cursor", "Claude", "n8n", "Make", "specific AI tools"],
+          "frame": "Practitioner review, not influencer hype"
+        },
+        {
+          "name": "Framework Shares",
+          "topics": ["Carousels with actionable models"],
+          "frame": "Here's how I think about X"
+        }
+      ]
+    },
+    "stop_posting": [
+      "Anything that sounds like consulting offers or services",
+      "Peru/LatAm specific content (targeting US market now)",
+      "Generic AI hype ('AI is changing everything!')",
+      "Content that signals you're building an agency"
+    ]
+  },
+
+  "language_characteristics": {
+    "complexity": "Clear and accessible. Technical terms explained in business context. Never jargon for jargon's sake.",
+    
+    "product_language_to_use": {
+      "purpose": "Signal product thinking to attract PM/Marketing roles",
+      "terms": [
+        "user problems",
+        "adoption",
+        "internal tools",
+        "workflow design",
+        "cross-functional",
+        "systems thinking",
+        "integration points"
+      ],
+      "example_usage": "Built this to solve a gap between sales and product workflows"
+    },
+
+    "metaphors_and_analogies": [
+      "AI as 'system' not 'tool'",
+      "Integration as 'plumbing' not 'magic'",
+      "Automation as 'leverage' not 'replacement'",
+      "Boring businesses as 'hidden opportunity'"
+    ],
+
+    "avoid": [
+      "Consulting language ('I help companies...')",
+      "Service offerings ('My approach includes...')",
+      "Hype language ('Revolutionary', 'Game-changing')",
+      "Passive positioning ('Available for...')"
+    ]
+  },
+
+  "visual_and_formatting": {
+    "emoji_usage": {
+      "use_sparingly": ["👉 for CTAs", "📌 for key links"],
+      "rationale": "Can date quickly—don't overdo"
+    },
+    
+    "content_formats": [
+      "Personal photos at desk or with builds",
+      "Screenshots of actual tools and workflows",
+      "Simple charts and frameworks (not overdesigned)",
+      "Before/after comparisons of processes"
+    ],
+
+    "formatting_principles": [
+      "White space matters—break up text",
+      "One idea per paragraph",
+      "Bold used sparingly for emphasis",
+      "No walls of text"
+    ]
+  },
+
+  "engagement_tactics": [
+    "End with questions that invite specific experiences",
+    "Reference real projects and real results",
+    "Acknowledge what didn't work, not just wins",
+    "Create 'I'm figuring this out too' relatability",
+    "Respond to comments with substance, not just thanks"
+  ],
+
+  "employer_safety_guidelines": {
+    "safe_framing": [
+      "Personal projects and learning",
+      "Skills development",
+      "Industry observations",
+      "Helping friends (not clients)"
+    ],
+    "avoid": [
+      "Any mention of building an agency",
+      "Offering services directly",
+      "Anything that suggests moonlighting",
+      "Client testimonials or case studies framed as paid work"
+    ],
+    "example_safe_phrasing": "I've been helping a friend automate their HVAC business. Here's what I learned."
+  }
+}

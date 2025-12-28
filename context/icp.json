@@ -1,0 +1,259 @@
+{
+    "profile_owner": "Diego Vences, MBA, MSBA",
+    "file_type": "ideal_customer_profile",
+    "last_updated": "2025-12-26",
+    "version": "2.0",
+    "strategic_context": {
+      "target_market": "United States",
+      "previous_market": "Peru/LatAm (deprecated for content purposes)",
+      "dual_purpose": "Content must attract both (1) recruiters for Product/Marketing roles and (2) future agency clients, without explicitly selling services"
+    },
+  
+    "audience_segments": {
+      "primary_for_career": {
+        "segment": "Product & Marketing Hiring Managers at US Tech Companies",
+        "why_primary": "Career pivot target—need to attract these people to Diego's profile",
+        "characteristics": [
+          "Looking for candidates with cross-functional experience",
+          "Value builders over theorists",
+          "Skeptical of 'AI expertise' without proof",
+          "Want someone who understands GTM and can execute",
+          "Appreciate candidates who show their thinking publicly"
+        ],
+        "what_they_look_for": [
+          "Evidence of product thinking (not just sales metrics)",
+          "Ability to work across sales, product, and engineering",
+          "Technical credibility (can actually build things)",
+          "Strategic thinking with execution proof",
+          "Modern skills (AI, automation, data)"
+        ],
+        "content_that_attracts_them": [
+          "Posts showing cross-functional problem-solving",
+          "Builds that demonstrate product thinking",
+          "Frameworks for GTM and product alignment",
+          "Evidence of technical skills applied to business problems"
+        ],
+        "signals_diego_should_send": [
+          "Uses product language naturally",
+          "Thinks in systems, not just deals",
+          "Builds internal tools (not just uses them)",
+          "Understands user problems, not just customer problems"
+        ]
+      },
+  
+      "primary_for_agency": {
+        "segment": "US SMB Owners in 'Boring Businesses'",
+        "why_primary": "Future agency clients—need to build credibility now for 2026 launch",
+        "industries": {
+          "initial_focus": ["HVAC", "Plumbing", "Electrical", "Trades"],
+          "expansion": ["Local services", "Professional services", "Small manufacturing"],
+          "rationale": "High revenue, low tech adoption, underserved by AI consultants, willing to pay for results"
+        },
+        "characteristics": [
+          "Revenue: $1M-$20M typically",
+          "Team size: 5-50 employees",
+          "Tech-curious but overwhelmed by options",
+          "Practical—need ROI proof, not hype",
+          "Time-poor—want done-for-you or done-with-you",
+          "Trust referrals and demonstrated expertise"
+        ],
+        "problems_they_face": [
+          "Drowning in admin work that doesn't generate revenue",
+          "Can't find or keep good employees",
+          "Know they should 'use AI' but don't know where to start",
+          "Tried tools that didn't stick or integrate",
+          "Competitors starting to move faster",
+          "Customer communication is inconsistent"
+        ],
+        "what_they_actually_need": [
+          "Someone to just handle it for them",
+          "Systems that work without constant attention",
+          "Quick wins that prove value before big investment",
+          "Integration with tools they already use",
+          "Training simple enough for their team"
+        ],
+        "content_that_attracts_them": [
+          "Case studies from similar businesses (even if 'helping a friend')",
+          "Before/after of specific processes automated",
+          "Plain-language explanations without jargon",
+          "Proof of understanding their specific industry challenges"
+        ],
+        "how_to_reach_without_selling": [
+          "Share 'what I learned helping a friend in HVAC'",
+          "Post about 'boring business' opportunities",
+          "Show automations relevant to trades/services",
+          "Build in public without mentioning agency"
+        ]
+      },
+  
+      "secondary": {
+        "segment": "Sales & Product Leaders at B2B Companies",
+        "characteristics": [
+          "Managing teams that need better alignment",
+          "Struggling with product-sales disconnect",
+          "Looking to leverage data and technology",
+          "Want to improve go-to-market effectiveness"
+        ],
+        "relevance": "Validates Diego's expertise but less likely to be direct clients or employers",
+        "content_overlap": "Posts about product-sales alignment serve this audience while also attracting recruiters"
+      }
+    },
+  
+    "problems_diego_addresses": {
+      "for_career_audience": [
+        {
+          "problem": "Sales leaders seem one-dimensional",
+          "diego_counter": "Shows product thinking, technical builds, and systems design"
+        },
+        {
+          "problem": "AI claims without proof",
+          "diego_counter": "20+ projects built, shared publicly with lessons learned"
+        },
+        {
+          "problem": "Can they work cross-functionally?",
+          "diego_counter": "Content explicitly bridges sales, product, and engineering perspectives"
+        }
+      ],
+      "for_agency_audience": [
+        {
+          "problem": "Don't know where to start with AI",
+          "solution_frame": "Start with the boring stuff—scheduling, follow-ups, reporting"
+        },
+        {
+          "problem": "Tried AI tools and they didn't stick",
+          "solution_frame": "Integration is the real work. The tool is 20%, the system is 80%."
+        },
+        {
+          "problem": "Too busy to learn new technology",
+          "solution_frame": "You don't need to learn it. You need someone to build it for you."
+        },
+        {
+          "problem": "AI seems like it's for big companies",
+          "solution_frame": "Boring businesses have the biggest opportunity—less competition, clearer wins"
+        },
+        {
+          "problem": "Don't trust consultants who don't understand my business",
+          "solution_frame": "Show specific knowledge of trades/services through content"
+        }
+      ]
+    },
+  
+    "objections_and_responses": [
+      {
+        "objection": "AI is too complex for our business",
+        "response_frame": "The best AI implementations are invisible. Your team doesn't need to know it's AI—they just know the work got easier."
+      },
+      {
+        "objection": "We need the newest, most advanced technology",
+        "response_frame": "The best stack isn't the newest one. It's the one that fits your workflow and your team will actually use."
+      },
+      {
+        "objection": "We don't have the budget for this",
+        "response_frame": "Start with one process. Prove the ROI. Then expand. I'd rather automate one thing well than touch ten things badly."
+      },
+      {
+        "objection": "AI will replace our people",
+        "response_frame": "AI replaces tasks, not people. Your best employee spends 30% of their time on admin. What if they got that back?"
+      },
+      {
+        "objection": "We tried AI and it didn't work",
+        "response_frame": "Most AI fails because of integration, not the AI itself. The tool worked fine—it just wasn't connected to anything."
+      },
+      {
+        "objection": "Our industry is different",
+        "response_frame": "Every industry thinks it's different. The problems are usually the same: scheduling, communication, follow-up, reporting."
+      }
+    ],
+  
+    "language_patterns": {
+      "words_audience_uses": [
+        "efficiency",
+        "time savings",
+        "headache",
+        "bottleneck",
+        "manual work",
+        "dropped balls",
+        "customer complaints",
+        "can't find good people"
+      ],
+      "words_to_use_in_content": [
+        "automate",
+        "system",
+        "workflow",
+        "integration",
+        "leverage",
+        "boring but important",
+        "done for you"
+      ],
+      "words_to_avoid": [
+        "digital transformation",
+        "AI-powered",
+        "revolutionary",
+        "cutting-edge",
+        "synergy",
+        "leverage (overused)",
+        "scalable solution"
+      ]
+    },
+  
+    "psychographic_profile": {
+      "shared_traits": [
+        "Pragmatic over theoretical",
+        "Value proof over promises",
+        "Appreciate honesty about what works and what doesn't",
+        "Skeptical of hype and buzzwords",
+        "Respect builders over talkers"
+      ],
+      "trust_signals": [
+        "Showing actual work, not just talking about concepts",
+        "Admitting failures and lessons learned",
+        "Specific numbers and outcomes",
+        "Understanding of real-world constraints",
+        "Consistency over time (not just one viral post)"
+      ]
+    },
+  
+    "content_mapping": {
+      "topics_that_serve_both_audiences": [
+        {
+          "topic": "Automating sales operations",
+          "career_angle": "Shows product/ops thinking",
+          "agency_angle": "Demonstrates capability for SMBs"
+        },
+        {
+          "topic": "Building internal tools",
+          "career_angle": "Signals technical + product skills",
+          "agency_angle": "Shows what's possible for smaller teams"
+        },
+        {
+          "topic": "AI integration lessons",
+          "career_angle": "Demonstrates hands-on experience",
+          "agency_angle": "Builds trust through transparency"
+        },
+        {
+          "topic": "Process before technology",
+          "career_angle": "Shows strategic thinking",
+          "agency_angle": "Counters SMB fear of complexity"
+        }
+      ],
+      "topics_primarily_for_career": [
+        "Product-sales alignment frameworks",
+        "Cross-functional collaboration",
+        "GTM strategy insights",
+        "Data-driven decision making"
+      ],
+      "topics_primarily_for_agency": [
+        "Boring business opportunities",
+        "Trades/services specific examples",
+        "SMB-friendly tools and approaches",
+        "Quick wins and ROI proof"
+      ]
+    },
+  
+    "geographic_and_demographic": {
+      "primary_market": "United States",
+      "language": "English",
+      "secondary_consideration": "Spanish-speaking US business owners could be a niche advantage",
+      "deprecated": "Peru/LatAm as primary focus (still valid for personal brand story, not for targeting)"
+    }
+  }
