@@ -1,0 +1,25 @@
+{
+  "date_created": "2025-12-27",
+  "title": "Claude Code: Skills vs Cloud Desktop",
+  "platform": ["linkedin"],
+  "audience": "career",
+  "theme": "what-i-built",
+  "hook_type": "unexpected-reframe",
+  "status": "draft",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [
+    "assets/comparison-visual.html"
+  ],
+  "tags": ["claude-code", "tools", "comparison", "technical", "automation", "AI", "workflow"],
+  "safety_review": "passed",
+  "word_count": 197
+}

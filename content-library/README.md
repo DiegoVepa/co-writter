@@ -2,7 +2,7 @@
 
 **Purpose:** Organized archive of all content created through the co-writing system
 **Owner:** Diego Vences
-**Total Posts:** 0
+**Total Posts:** 1
 **Last Updated:** 2025-12-27
 
 ---
@@ -18,7 +18,7 @@
 
 | Date | Title | Platform | Audience | Status | Link |
 |------|-------|----------|----------|--------|------|
-| - | No posts yet | - | - | - | - |
+| 2025-12-27 | Claude Code: Skills vs Cloud Desktop | LinkedIn | Career | Draft | [View](2025-12-27-claude-code-skills-vs-desktop/) |
 
 ---
 
@@ -27,7 +27,7 @@
 ### What I Built
 _Posts showcasing technical builds, tools, and automation projects_
 
-- No posts yet
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 
 ---
 
@@ -57,7 +57,9 @@ _Thought leadership, reframes, and systems thinking_
 ### Career Pivot (Product/Marketing Hiring Managers)
 _Technical credibility, product thinking, cross-functional showcases_
 
-**Total:** 0 posts
+**Total:** 1 post
+
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 
 ---
 
@@ -106,7 +108,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 ### Content Mix (Target: 60% Internal / 30% Helping Friends / 10% Educational)
 
 **Current Mix:**
-- Internal work projects: 0%
+- Internal work projects: 100% (1 post)
 - "Helping friends" stories: 0%
 - Educational/theoretical: 0%
 
@@ -118,7 +120,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Platform Distribution
 
-**LinkedIn:** 0 posts
+**LinkedIn:** 1 post
 **X/Twitter:** 0 posts
 **Substack:** 0 posts
 
@@ -127,7 +129,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 ### Hook Type Performance
 
 **Contrarian Takes:** 0 posts
-**What I Built:** 0 posts
+**What I Built:** 1 post
 **Problem-First:** 0 posts
 **Reframes:** 0 posts
 
@@ -138,7 +140,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 ### 2025
 
 **December:**
-- No posts yet
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 
 ---
 
