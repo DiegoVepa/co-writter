@@ -1,7 +1,7 @@
 # Employer Safety Filter - Employment Protection Protocol
 
-**Version:** 1.0
-**Last Updated:** 2025-12-27
+**Version:** 2.0
+**Last Updated:** 2026-01-11
 
 ---
 
@@ -14,6 +14,138 @@ This is your **critical safety protocol** to protect current employment while bu
 ## Core Principle
 
 **You are building skills and audience in public. You are NOT building an agency or offering services.**
+
+---
+
+## The Trust Doctrine (HARD RULE)
+
+**Trust > Reach**
+
+You cannot use language that implies organizational-level building if your organization knows you are not doing that.
+
+Not because it's illegal.
+Not because it's disallowed.
+**But because it breaks trust with the people who know you best.**
+
+### Why This Matters:
+
+Your colleagues at MoneyGram see your LinkedIn. If your public content suggests you're building systems at organizational scale elsewhere, it creates cognitive dissonance:
+
+- "He says he's building cycles for teams... but not here?"
+- "Systems teams rely on? Is he doing this somewhere else?"
+- "Things running without babysitting... where?"
+
+This isn't paranoia. It's pattern recognition.
+
+### The Forbidden Patterns:
+
+❌ **NEVER use these phrases** unless explicitly tied to university work, personal projects, helping friends, or research:
+
+- "building cycles"
+- "systems teams rely on"
+- "things running without babysitting"
+- Any language implying org-wide ownership or multi-team impact
+- Anything suggesting you're architecting for organizations (unless it's your DBA research)
+
+---
+
+## Three Approved Sources of Truth
+
+When creating content, you have **three clean, defensible anchors**. All content must originate from one of these:
+
+### 1. DBA / University Projects
+
+**Status:** Bulletproof. Nobody at MoneyGram can question educational work.
+
+**Approved Language:**
+- ✅ "In my DBA program..."
+- ✅ "As part of a university project..."
+- ✅ "For a research study on..."
+- ✅ "Academic work exploring..."
+- ✅ "My doctoral research focuses on..."
+
+**Why This Works:**
+It's education. It's expected. It's encouraged. This is your strongest, safest anchor.
+
+---
+
+### 2. Personal Productivity Systems
+
+**Status:** Safe. Not teams. Not orgs. Just you.
+
+**Approved Language:**
+- ✅ "How I structure my own work"
+- ✅ "A personal workflow I built"
+- ✅ "A setup I use to learn faster"
+- ✅ "An experiment I ran for myself"
+- ✅ "My personal productivity system"
+- ✅ "How I organize my learning"
+
+**Why This Works:**
+This reads as: *"Senior IC improving his craft"*
+NOT: *"Shadow PM/Engineer building systems elsewhere"*
+
+**Example Reframes:**
+
+Instead of: "I'm optimizing for smaller build cycles"
+✅ Say: "I'm running short learning experiments"
+
+Instead of: "systems that run without babysitting"
+✅ Say: "setups I don't have to think about twice"
+
+---
+
+### 3. Helping Friends (Carefully Framed)
+
+**Status:** Use sparingly and with precision.
+
+**Approved Language:**
+- ✅ "Helping a friend who runs an HVAC business"
+- ✅ "Built this for a cousin's plumbing company"
+- ✅ "Personal favor for a friend"
+- ✅ "A family member asked me to..."
+- ✅ "Testing this with a friend's small business"
+
+**Critical Constraints:**
+- One-off framing only (never imply repetition)
+- Never imply scale ("helped multiple friends" = red flag)
+- Always frame as favor, never as paid work
+- Specific and humble
+
+**Why This Works:**
+Shows capability building without business implication.
+
+---
+
+## Language Substitution Guide
+
+Use these approved replacements to communicate the same ideas safely:
+
+### Building & Iteration:
+
+| ❌ Forbidden | ✅ Approved |
+|-------------|------------|
+| "Optimizing for smaller build cycles" | "Running short learning experiments" |
+| "Shipping faster iterations" | "Testing ideas in contained projects" |
+| "Building in sprints" | "Shipping small personal experiments end-to-end" |
+
+### Systems & Automation:
+
+| ❌ Forbidden | ✅ Approved |
+|-------------|------------|
+| "Systems that run without babysitting" | "Setups I don't have to think about twice" |
+| "Automated workflows for teams" | "Workflows that remove manual steps for me" |
+| "Self-running processes" | "Processes I can trust once they're set up" |
+| "Set-it-and-forget-it automation" | "Automation that fades into the background" |
+
+### Scale & Impact:
+
+| ❌ Forbidden | ✅ Approved |
+|-------------|------------|
+| "Systems teams rely on" | "A system I rely on" |
+| "Building for organizations" | "Building for my own learning" |
+| "Solving problems at scale" | "Testing solutions in small experiments" |
+| "Enterprise-level solutions" | "Personal tools that might scale later" |
 
 ---
 
@@ -214,6 +346,88 @@ What's one boring business problem you think AI could solve?
 
 ---
 
+### Example 4: Intro Post (Trust Doctrine Applied)
+
+This example demonstrates the Trust Doctrine in action—avoiding organizational-scale language while still positioning as a builder.
+
+❌ **UNSAFE (violates Trust Doctrine):**
+```
+Over the last year, I've been optimizing for smaller build cycles.
+
+I'm building systems teams can rely on—things that run without
+constant babysitting.
+
+My focus: shipping faster iterations, not endless research.
+
+The best AI work happens when you build it into existing workflows,
+not as standalone experiments.
+
+What's one part of your workflow that still feels more manual than
+it should?
+```
+
+**Why Unsafe:**
+- "build cycles" = implies organizational development cadence
+- "systems teams rely on" = suggests multi-team ownership
+- "run without babysitting" = organizational-scale automation
+- Creates cognitive dissonance: "Where is he building these systems? Not at MoneyGram..."
+
+✅ **SAFE (Trust Doctrine compliant):**
+```
+Most AI content talks about what's possible.
+I'm more interested in what actually gets used.
+
+Over the last year—through university projects, personal experiments,
+and a few "helping a friend" builds—I noticed a pattern in how I work:
+
+Ideas don't fail because they're bad.
+They fail because they never make it into a real routine.
+
+The gap isn't intelligence.
+It's integration.
+
+What's working for me:
+• Short, contained projects instead of endless research
+• Personal workflows that remove friction from daily work
+• Fewer demos, more setups I actually rely on
+
+In practice, I'm using AI the same way I use notes, spreadsheets,
+or dashboards: to learn faster, think more clearly, and apply ideas
+immediately.
+
+Not prompts for the sake of prompts.
+Not tools for the sake of tools.
+
+Just systems that earn their place by getting used.
+
+I'll be sharing what I experiment with, what works, and what doesn't—
+across academic projects, personal builds, and occasional favors for
+friends.
+
+Sometimes it'll work.
+Sometimes it won't.
+
+That's the point.
+
+What's one part of your day that still feels more manual than it should?
+```
+
+**Why Safe:**
+- ✅ Explicitly anchored to three approved sources (university, personal, helping friends)
+- ✅ "Personal workflows" not "team systems"
+- ✅ "Setups I rely on" not "systems teams rely on"
+- ✅ "Short learning experiments" not "build cycles"
+- ✅ 100% truthful and defensible
+- ✅ Still strong positioning without organizational implications
+
+**The Key Shift:**
+- From: "I'm building systems for organizations"
+- To: "I'm systematically building the capability to do this next"
+
+This is powerful AND safe.
+
+---
+
 ## Content Review Checklist
 
 Before publishing ANY content, verify:
@@ -224,6 +438,8 @@ Before publishing ANY content, verify:
 - [ ] Call to action that solicits business
 - [ ] Language that implies you're running a business
 - [ ] Moonlighting or side business framing
+- [ ] **Trust Doctrine violations:** Organizational-scale language ("build cycles," "systems teams rely on," "things running without babysitting")
+- [ ] **Scope creep:** Implies building for organizations/teams unless explicitly tied to DBA work
 
 ### ✅ APPROVE if post:
 - [ ] Frames work as personal projects or helping friends
@@ -231,6 +447,8 @@ Before publishing ANY content, verify:
 - [ ] No service offering or business solicitation
 - [ ] Ends with engagement question (not sales pitch)
 - [ ] Could be explained to MoneyGram as "building skills"
+- [ ] **Anchored to approved sources:** University/DBA work, personal productivity, or helping friends (one-off)
+- [ ] **Uses safe language:** "Learning experiments," "personal workflows," "setups I rely on"
 
 ---
 
