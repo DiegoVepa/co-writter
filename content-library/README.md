@@ -18,7 +18,7 @@
 
 | Date | Title | Platform | Audience | Status | Link |
 |------|-------|----------|----------|--------|------|
-| 2026-12-27 | Claude Code: Skills vs Cloud Desktop | LinkedIn | Career | Draft | [View](2026-12-27-claude-code-skills-vs-desktop/) |
+| 2025-12-27 | Claude Code: Skills vs Cloud Desktop | LinkedIn | Career | Draft | [View](2025-12-27-claude-code-skills-vs-desktop/) |
 | 2026-01-25 | My AI Cycle - Claude as Co-Writer | LinkedIn | Career | Ready | [View](2026-01-25-mi-ciclo-ia-co-writer/) |
 | 2026-01-25 | AI-Native Businesses | LinkedIn | Both | Ready | [View](2026-01-25-negocios-ia-native/) |
 | 2026-01-25 | From AI Pilots to Real Impact | LinkedIn | Career | Ready | [View](2026-01-25-pilotos-a-impacto/) |
@@ -32,7 +32,7 @@
 ### What I Built
 _Posts showcasing technical builds, tools, and automation projects_
 
-- [2026-12-27: Claude Code: Skills vs Cloud Desktop](2026-12-27-claude-code-skills-vs-desktop/)
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 - [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
 
 ---
@@ -66,7 +66,7 @@ _Technical credibility, product thinking, cross-functional showcases_
 
 **Total:** 4 posts
 
-- [2026-12-27: Claude Code: Skills vs Cloud Desktop](2026-12-27-claude-code-skills-vs-desktop/)
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 - [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
 - [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
 
@@ -153,7 +153,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 ### 2025
 
 **December:**
-- [2026-12-27: Claude Code: Skills vs Cloud Desktop](2026-12-27-claude-code-skills-vs-desktop/)
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 
 ---
 
