@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #F5F0E6; }
+body {
+  width: 540pt; height: 540pt; margin: 0; padding: 0;
+  background: #F5F0E6; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.stars { color: #E67E22; font-size: 18pt; text-align: center; margin: 30pt 0 0 0; }
+h1 { color: #E67E22; font-size: 26pt; text-align: center; margin: 15pt 30pt 30pt 30pt; }
+.row { display: flex; flex-direction: row; align-items: flex-start; margin: 20pt 40pt; }
+.icon { font-size: 24pt; margin-right: 15pt; width: 35pt; text-align: center; font-weight: bold; }
+.text { flex: 1; }
+.label { font-size: 14pt; color: #1A1A1A; margin-bottom: 8pt; font-weight: bold; }
+.content { font-size: 17pt; color: #1A1A1A; line-height: 1.4; }
+.wrong .icon { color: #E67E22; }
+.right .icon { color: #2D8B4E; }
+.handle { color: #E67E22; font-size: 14pt; text-align: center; margin-top: auto; margin-bottom: 40pt; font-weight: bold; }
+</style>
+</head>
+<body>
+<p class="stars">+ + +</p>
+<h1>Start with workflow, not technology</h1>
+<div class="row wrong">
+  <p class="icon">X</p>
+  <div class="text">
+    <p class="label">WRONG</p>
+    <p class="content">"We have AI. What should we do with it?"</p>
+  </div>
+</div>
+<div class="row right">
+  <p class="icon">+</p>
+  <div class="text">
+    <p class="label">RIGHT</p>
+    <p class="content">"We have a bottleneck. Could AI help?"</p>
+  </div>
+</div>
+<p class="handle">@DiegoVences</p>
+</body>
+</html>
