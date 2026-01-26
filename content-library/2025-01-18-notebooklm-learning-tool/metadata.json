@@ -1,0 +1,25 @@
+{
+  "date_created": "2025-01-18",
+  "title": "Using NotebookLM as a Learning Tool for Meta Ads",
+  "platform": ["linkedin"],
+  "audience": "both",
+  "theme": "ai-for-ops",
+  "hook_type": "contrarian",
+  "status": "ready-to-publish",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [
+    "assets/notebooklm-learning-visual.html"
+  ],
+  "tags": ["Learning", "NotebookLM", "AI", "Meta Ads", "Paid Media"],
+  "safety_review": "passed",
+  "word_count": 118
+}

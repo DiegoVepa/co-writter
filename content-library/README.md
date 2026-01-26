@@ -2,8 +2,8 @@
 
 **Purpose:** Organized archive of all content created through the co-writing system
 **Owner:** Diego Vences
-**Total Posts:** 1
-**Last Updated:** 2025-12-27
+**Total Posts:** 3
+**Last Updated:** 2025-01-25
 
 ---
 
@@ -18,6 +18,8 @@
 
 | Date | Title | Platform | Audience | Status | Link |
 |------|-------|----------|----------|--------|------|
+| 2025-01-18 | AI Video Production for Small Businesses | LinkedIn | Both | Ready | [View](2025-01-18-ai-video-production-smbs/) |
+| 2025-01-18 | Using NotebookLM as a Learning Tool for Meta Ads | LinkedIn | Both | Ready | [View](2025-01-18-notebooklm-learning-tool/) |
 | 2025-12-27 | Claude Code: Skills vs Cloud Desktop | LinkedIn | Career | Draft | [View](2025-12-27-claude-code-skills-vs-desktop/) |
 
 ---
@@ -34,14 +36,14 @@ _Posts showcasing technical builds, tools, and automation projects_
 ### Boring Business
 _Posts about AI/automation for HVAC, trades, and unsexy industries_
 
-- No posts yet
+- [2025-01-18: AI Video Production for Small Businesses](2025-01-18-ai-video-production-smbs/)
 
 ---
 
 ### AI for Ops & GTM
 _Posts about automation for sales operations, marketing, and cross-functional workflows_
 
-- No posts yet
+- [2025-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2025-01-18-notebooklm-learning-tool/)
 
 ---
 
@@ -73,7 +75,10 @@ _Boring business case studies, ROI-focused, plain language_
 ### Both Audiences
 _Overlap content that serves both Career and Agency goals_
 
-**Total:** 0 posts
+**Total:** 2 posts
+
+- [2025-01-18: AI Video Production for Small Businesses](2025-01-18-ai-video-production-smbs/)
+- [2025-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2025-01-18-notebooklm-learning-tool/)
 
 ---
 
@@ -108,9 +113,9 @@ _Posts that generated the most quality inbound messages from target audiences_
 ### Content Mix (Target: 60% Internal / 30% Helping Friends / 10% Educational)
 
 **Current Mix:**
-- Internal work projects: 100% (1 post)
+- Internal work projects: 33% (1 post)
 - "Helping friends" stories: 0%
-- Educational/theoretical: 0%
+- Educational/theoretical: 67% (2 posts)
 
 **Safety Compliance:**
 - ✅ All posts passed employment safety review
@@ -120,7 +125,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Platform Distribution
 
-**LinkedIn:** 1 post
+**LinkedIn:** 3 posts
 **X/Twitter:** 0 posts
 **Substack:** 0 posts
 
@@ -128,8 +133,8 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Hook Type Performance
 
-**Contrarian Takes:** 0 posts
-**What I Built:** 1 post
+**Contrarian Takes:** 1 post
+**What I Built:** 2 posts
 **Problem-First:** 0 posts
 **Reframes:** 0 posts
 
