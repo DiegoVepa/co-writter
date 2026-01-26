@@ -2,7 +2,7 @@
 
 **Purpose:** Organized archive of all content created through the co-writing system
 **Owner:** Diego Vences
-**Total Posts:** 3
+**Total Posts:** 6
 **Last Updated:** 2026-01-25
 
 ---
@@ -18,9 +18,12 @@
 
 | Date | Title | Platform | Audience | Status | Link |
 |------|-------|----------|----------|--------|------|
-| 2025-01-18 | AI Video Production for Small Businesses | LinkedIn | Both | Ready | [View](2025-01-18-ai-video-production-smbs/) |
-| 2025-01-18 | Using NotebookLM as a Learning Tool for Meta Ads | LinkedIn | Both | Ready | [View](2025-01-18-notebooklm-learning-tool/) |
-| 2025-12-27 | Claude Code: Skills vs Cloud Desktop | LinkedIn | Career | Draft | [View](2025-12-27-claude-code-skills-vs-desktop/) |
+| 2026-12-27 | Claude Code: Skills vs Cloud Desktop | LinkedIn | Career | Draft | [View](2026-12-27-claude-code-skills-vs-desktop/) |
+| 2026-01-25 | My AI Cycle - Claude as Co-Writer | LinkedIn | Career | Ready | [View](2026-01-25-mi-ciclo-ia-co-writer/) |
+| 2026-01-25 | AI-Native Businesses | LinkedIn | Both | Ready | [View](2026-01-25-negocios-ia-native/) |
+| 2026-01-25 | From AI Pilots to Real Impact | LinkedIn | Career | Ready | [View](2026-01-25-pilotos-a-impacto/) |
+| 2026-01-18 | AI Video Production for Small Businesses | LinkedIn | Both | Ready | [View](2026-01-18-ai-video-production-smbs/) |
+| 2026-01-18 | Using NotebookLM as a Learning Tool for Meta Ads | LinkedIn | Both | Ready | [View](2026-01-18-notebooklm-learning-tool/) |
 
 ---
 
@@ -29,28 +32,30 @@
 ### What I Built
 _Posts showcasing technical builds, tools, and automation projects_
 
-- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
+- [2026-12-27: Claude Code: Skills vs Cloud Desktop](2026-12-27-claude-code-skills-vs-desktop/)
+- [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
 
 ---
 
 ### Boring Business
 _Posts about AI/automation for HVAC, trades, and unsexy industries_
 
-- [2025-01-18: AI Video Production for Small Businesses](2025-01-18-ai-video-production-smbs/)
+- [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
+- [2026-01-18: AI Video Production for Small Businesses](2026-01-18-ai-video-production-smbs/)
 
 ---
 
 ### AI for Ops & GTM
 _Posts about automation for sales operations, marketing, and cross-functional workflows_
 
-- [2025-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2025-01-18-notebooklm-learning-tool/)
+- [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
 
 ---
 
 ### Frameworks & Insights
 _Thought leadership, reframes, and systems thinking_
 
-- No posts yet
+- [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
 
 ---
 
@@ -59,9 +64,11 @@ _Thought leadership, reframes, and systems thinking_
 ### Career Pivot (Product/Marketing Hiring Managers)
 _Technical credibility, product thinking, cross-functional showcases_
 
-**Total:** 1 post
+**Total:** 4 posts
 
-- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
+- [2026-12-27: Claude Code: Skills vs Cloud Desktop](2026-12-27-claude-code-skills-vs-desktop/)
+- [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
+- [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
 
 ---
 
@@ -75,10 +82,11 @@ _Boring business case studies, ROI-focused, plain language_
 ### Both Audiences
 _Overlap content that serves both Career and Agency goals_
 
-**Total:** 2 posts
+**Total:** 3 posts
 
-- [2025-01-18: AI Video Production for Small Businesses](2025-01-18-ai-video-production-smbs/)
-- [2025-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2025-01-18-notebooklm-learning-tool/)
+- [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
+- [2026-01-18: AI Video Production for Small Businesses](2026-01-18-ai-video-production-smbs/)
+- [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
 
 ---
 
@@ -145,7 +153,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 ### 2025
 
 **December:**
-- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
+- [2026-12-27: Claude Code: Skills vs Cloud Desktop](2026-12-27-claude-code-skills-vs-desktop/)
 
 ---
 
