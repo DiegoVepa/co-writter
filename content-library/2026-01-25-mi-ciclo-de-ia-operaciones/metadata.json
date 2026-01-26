@@ -1,0 +1,36 @@
+{
+  "date_created": "2026-01-25",
+  "title": "Mi Ciclo de IA - Operations Over Training",
+  "platform": ["linkedin"],
+  "audience": "both",
+  "theme": "ai-for-ops",
+  "hook_type": "contrarian",
+  "status": "ready-to-publish",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [],
+  "tags": ["AI", "MLOps", "operations", "lifecycle"],
+  "safety_review": "passed",
+  "word_count": 250,
+  "language_variants": {
+    "primary": "es",
+    "available": ["es", "en"],
+    "files": {
+      "es": "linkedin-post.md",
+      "en": "linkedin-post-english.md"
+    }
+  },
+  "inspiration": {
+    "source": "https://www.linkedin.com/posts/badsha-dash-7905253b_ai-machinelearning-digitaltransformation-activity-7409405014869213184-AaBJ",
+    "author": "Badsha Dash",
+    "note": "Adapted 12-step AI lifecycle framework into contrarian operations-focused take"
+  }
+}

@@ -2,7 +2,7 @@
 
 **Purpose:** Organized archive of all content created through the co-writing system
 **Owner:** Diego Vences
-**Total Posts:** 6
+**Total Posts:** 7
 **Last Updated:** 2026-01-26
 
 ---
@@ -18,6 +18,7 @@
 
 | Date | Title | Platform | Audience | Status | Link |
 |------|-------|----------|----------|--------|------|
+| 2026-01-25 | Mi Ciclo de IA - Operations Over Training | Linkedin | Both | Ready | [View](2026-01-25-mi-ciclo-de-ia-operaciones/) |
 | 2026-01-25 | My AI Cycle - Claude as Co-Writer | Linkedin | Career | Ready | [View](2026-01-25-mi-ciclo-ia-co-writer/) |
 | 2026-01-25 | AI-Native Businesses | Linkedin | Both | Ready | [View](2026-01-25-negocios-ia-native/) |
 | 2026-01-25 | From AI Pilots to Real Impact | Linkedin | Career | Ready | [View](2026-01-25-pilotos-a-impacto/) |
@@ -49,6 +50,7 @@ _Posts about AI/automation for HVAC, trades, and unsexy industries_
 ### AI for Ops & GTM
 _Posts about automation for sales operations, marketing, and cross-functional workflows_
 
+- [2026-01-25: Mi Ciclo de IA - Operations Over Training](2026-01-25-mi-ciclo-de-ia-operaciones/)
 - [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
 - [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
 
@@ -78,8 +80,9 @@ _Boring business case studies, ROI-focused, plain language_
 ### Both Audiences
 _Overlap content that serves both Career and Agency goals_
 
-**Total:** 3 posts
+**Total:** 4 posts
 
+- [2026-01-25: Mi Ciclo de IA - Operations Over Training](2026-01-25-mi-ciclo-de-ia-operaciones/)
 - [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
 - [2026-01-18: AI Video Production for Small Businesses - PhD Research Insight](2026-01-18-ai-video-production-smbs/)
 - [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
@@ -116,10 +119,10 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Content Mix (Target: 60% Internal / 30% Helping Friends / 10% Educational)
 
-**Current Mix (6 posts):**
-- Internal work projects: 33% (2 posts)
-- "Helping friends" stories: 33% (2 posts)
-- Educational/thought leadership: 33% (2 posts)
+**Current Mix (7 posts):**
+- Internal work projects: 29% (2 posts)
+- "Helping friends" stories: 29% (2 posts)
+- Educational/thought leadership: 43% (3 posts)
 
 **Safety Compliance:**
 - All posts passed employment safety review
@@ -129,7 +132,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Platform Distribution
 
-**Linkedin:** 6 posts
+**Linkedin:** 7 posts
 **Twitter:** 0 posts
 **Substack:** 0 posts
 
@@ -137,7 +140,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Hook Type Performance
 
-**Contrarian Takes:** 4 posts
+**Contrarian Takes:** 5 posts
 **What I Built:** 1 posts
 **Reframe:** 1 posts
 **Before/After:** 0 posts
@@ -151,6 +154,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 ### 2026
 
 **January:**
+- [2026-01-25: Mi Ciclo de IA - Operations Over Training](2026-01-25-mi-ciclo-de-ia-operaciones/)
 - [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
 - [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
 - [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
