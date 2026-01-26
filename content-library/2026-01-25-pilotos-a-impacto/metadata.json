@@ -1,0 +1,40 @@
+{
+  "date_created": "2026-01-25",
+  "title": "From AI Pilots to Real Impact",
+  "platform": ["linkedin"],
+  "audience": "career",
+  "theme": "ai-for-ops",
+  "hook_type": "contrarian",
+  "status": "ready-to-publish",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [
+    "slides/slide1.html",
+    "slides/slide2.html",
+    "slides/slide3.html",
+    "slides/slide4.html",
+    "slides/slide5.html",
+    "slides/slide6.html",
+    "slides/slide7.html",
+    "slides/slide8.html"
+  ],
+  "tags": ["AI", "Product Ops", "Digital Transformation", "Integration", "Enterprise", "Pilots"],
+  "safety_review": "passed",
+  "word_count": 292,
+  "language_variants": {
+    "primary": "en",
+    "available": ["en", "es"],
+    "files": {
+      "en": "linkedin-post-english.md",
+      "es": "linkedin-post.md"
+    }
+  }
+}

@@ -3,7 +3,7 @@
 **Purpose:** Organized archive of all content created through the co-writing system
 **Owner:** Diego Vences
 **Total Posts:** 6
-**Last Updated:** 2026-01-25
+**Last Updated:** 2026-01-26
 
 ---
 
@@ -18,12 +18,13 @@
 
 | Date | Title | Platform | Audience | Status | Link |
 |------|-------|----------|----------|--------|------|
-| 2025-12-27 | Claude Code: Skills vs Cloud Desktop | LinkedIn | Career | Draft | [View](2025-12-27-claude-code-skills-vs-desktop/) |
-| 2026-01-25 | My AI Cycle - Claude as Co-Writer | LinkedIn | Career | Ready | [View](2026-01-25-mi-ciclo-ia-co-writer/) |
-| 2026-01-25 | AI-Native Businesses | LinkedIn | Both | Ready | [View](2026-01-25-negocios-ia-native/) |
-| 2026-01-25 | From AI Pilots to Real Impact | LinkedIn | Career | Ready | [View](2026-01-25-pilotos-a-impacto/) |
-| 2026-01-18 | AI Video Production for Small Businesses | LinkedIn | Both | Ready | [View](2026-01-18-ai-video-production-smbs/) |
-| 2026-01-18 | Using NotebookLM as a Learning Tool for Meta Ads | LinkedIn | Both | Ready | [View](2026-01-18-notebooklm-learning-tool/) |
+| 2026-01-25 | My AI Cycle - Claude as Co-Writer | Linkedin | Career | Ready | [View](2026-01-25-mi-ciclo-ia-co-writer/) |
+| 2026-01-25 | AI-Native Businesses | Linkedin | Both | Ready | [View](2026-01-25-negocios-ia-native/) |
+| 2026-01-25 | From AI Pilots to Real Impact | Linkedin | Career | Ready | [View](2026-01-25-pilotos-a-impacto/) |
+| 2026-01-18 | AI Video Production for Small Businesses - PhD Research Insight | Linkedin | Both | Ready | [View](2026-01-18-ai-video-production-smbs/) |
+| 2026-01-18 | Using NotebookLM as a Learning Tool for Meta Ads | Linkedin | Both | Ready | [View](2026-01-18-notebooklm-learning-tool/) |
+| 2025-12-27 | Claude Code: Skills vs Cloud Desktop | Linkedin | Career | Draft | [View](2025-12-27-claude-code-skills-vs-desktop/) |
+
 
 ---
 
@@ -32,8 +33,8 @@
 ### What I Built
 _Posts showcasing technical builds, tools, and automation projects_
 
-- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 - [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 
 ---
 
@@ -41,21 +42,15 @@ _Posts showcasing technical builds, tools, and automation projects_
 _Posts about AI/automation for HVAC, trades, and unsexy industries_
 
 - [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
-- [2026-01-18: AI Video Production for Small Businesses](2026-01-18-ai-video-production-smbs/)
+- [2026-01-18: AI Video Production for Small Businesses - PhD Research Insight](2026-01-18-ai-video-production-smbs/)
 
 ---
 
 ### AI for Ops & GTM
 _Posts about automation for sales operations, marketing, and cross-functional workflows_
 
-- [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
-
----
-
-### Frameworks & Insights
-_Thought leadership, reframes, and systems thinking_
-
 - [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
+- [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
 
 ---
 
@@ -64,11 +59,11 @@ _Thought leadership, reframes, and systems thinking_
 ### Career Pivot (Product/Marketing Hiring Managers)
 _Technical credibility, product thinking, cross-functional showcases_
 
-**Total:** 4 posts
+**Total:** 3 posts
 
-- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 - [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
 - [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
+- [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 
 ---
 
@@ -76,6 +71,7 @@ _Technical credibility, product thinking, cross-functional showcases_
 _Boring business case studies, ROI-focused, plain language_
 
 **Total:** 0 posts
+
 
 ---
 
@@ -85,7 +81,7 @@ _Overlap content that serves both Career and Agency goals_
 **Total:** 3 posts
 
 - [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
-- [2026-01-18: AI Video Production for Small Businesses](2026-01-18-ai-video-production-smbs/)
+- [2026-01-18: AI Video Production for Small Businesses - PhD Research Insight](2026-01-18-ai-video-production-smbs/)
 - [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
 
 ---
@@ -120,35 +116,48 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Content Mix (Target: 60% Internal / 30% Helping Friends / 10% Educational)
 
-**Current Mix:**
-- Internal work projects: 33% (1 post)
-- "Helping friends" stories: 0%
-- Educational/theoretical: 67% (2 posts)
+**Current Mix (6 posts):**
+- Internal work projects: 33% (2 posts)
+- "Helping friends" stories: 33% (2 posts)
+- Educational/thought leadership: 33% (2 posts)
 
 **Safety Compliance:**
-- ✅ All posts passed employment safety review
+- All posts passed employment safety review
 - Total posts flagged for revision: 0
 
 ---
 
 ### Platform Distribution
 
-**LinkedIn:** 3 posts
-**X/Twitter:** 0 posts
+**Linkedin:** 6 posts
+**Twitter:** 0 posts
 **Substack:** 0 posts
 
 ---
 
 ### Hook Type Performance
 
-**Contrarian Takes:** 1 post
-**What I Built:** 2 posts
+**Contrarian Takes:** 4 posts
+**What I Built:** 1 posts
+**Reframe:** 1 posts
+**Before/After:** 0 posts
 **Problem-First:** 0 posts
-**Reframes:** 0 posts
+**Counter-Intuitive:** 0 posts
 
 ---
 
 ## Monthly Archive
+
+### 2026
+
+**January:**
+- [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
+- [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
+- [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
+- [2026-01-18: AI Video Production for Small Businesses - PhD Research Insight](2026-01-18-ai-video-production-smbs/)
+- [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
+
+---
 
 ### 2025
 
@@ -166,7 +175,7 @@ grep -r "keyword" content-library/
 
 **Find by date range:**
 ```bash
-ls content-library/ | grep "2025-12"
+ls content-library/ | grep "2026-01"
 ```
 
 **Find drafts:**
@@ -185,19 +194,17 @@ grep -l '"views": [0-9]' content-library/*/metadata.json | sort
 
 ### When to Update This File
 
-**Add new entry:**
-- After creating new content folder
-- Update "Recent Posts" table
-- Add to appropriate "By Theme" section
-- Update total count and last updated date
+**Regenerate automatically:**
+```bash
+node scripts/generate-readme.js
+```
 
 **After publishing:**
-- Update status from "draft" to "published"
+- Update status in metadata.json from "ready-to-publish" to "published"
 - Add performance data monthly
 
 **Monthly review:**
-- Update "Performance Leaders" section
-- Recalculate content mix percentages
+- Regenerate README to update Performance Leaders
 - Review analytics dashboard
 
 ---
@@ -205,11 +212,10 @@ grep -l '"views": [0-9]' content-library/*/metadata.json | sort
 ## Workflow Reference
 
 **Creating new content:**
-1. Create dated folder: `YYYY-MM-DD-short-title/`
-2. Copy `_templates/metadata-template.json` → `metadata.json`
-3. Create content file: `linkedin-post.md`, `x-thread.md`, etc.
-4. Add assets to `assets/` subfolder
-5. Update this README with new entry
+1. Run: `node scripts/create-post.js --title "My Title" --audience career --theme what-i-built`
+2. Edit the generated content files
+3. Run: `node scripts/validate-metadata.js` to check
+4. Run: `node scripts/generate-readme.js` to update index
 
 **See full workflow:** [folder-structure.md](_templates/folder-structure.md)
 
@@ -217,4 +223,4 @@ grep -l '"views": [0-9]' content-library/*/metadata.json | sort
 
 **End of Content Library Index**
 
-_This file is automatically updated as new content is added to the library._
+_This file is auto-generated by scripts/generate-readme.js_

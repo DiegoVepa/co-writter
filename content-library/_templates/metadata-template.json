@@ -1,4 +1,11 @@
 {
+  "_comment_schema": {
+    "audience": "career | agency | both",
+    "theme": "what-i-built | boring-business | ai-for-ops",
+    "hook_type": "contrarian | what-i-built | reframe | before-after | problem-first | counter-intuitive",
+    "status": "draft | ready-to-publish | published",
+    "safety_review": "passed | flagged | needs-review"
+  },
   "date_created": "",
   "title": "",
   "platform": [],
@@ -19,5 +26,12 @@
   "assets": [],
   "tags": [],
   "safety_review": "",
-  "word_count": null
+  "word_count": null,
+  "language_variants": {
+    "primary": "en",
+    "available": ["en"],
+    "files": {
+      "en": "linkedin-post.md"
+    }
+  }
 }

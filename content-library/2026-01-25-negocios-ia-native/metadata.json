@@ -1,0 +1,31 @@
+{
+  "date_created": "2026-01-25",
+  "title": "AI-Native Businesses",
+  "platform": ["linkedin"],
+  "audience": "both",
+  "theme": "boring-business",
+  "hook_type": "contrarian",
+  "status": "ready-to-publish",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [],
+  "tags": ["AI", "SMB", "Small Business", "Automation", "HVAC", "Service Business", "Operations"],
+  "safety_review": "passed",
+  "word_count": 294,
+  "language_variants": {
+    "primary": "en",
+    "available": ["en", "es"],
+    "files": {
+      "en": "linkedin-post-english.md",
+      "es": "linkedin-post.md"
+    }
+  }
+}

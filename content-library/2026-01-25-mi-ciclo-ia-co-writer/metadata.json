@@ -1,0 +1,31 @@
+{
+  "date_created": "2026-01-25",
+  "title": "My AI Cycle - Claude as Co-Writer",
+  "platform": ["linkedin"],
+  "audience": "career",
+  "theme": "what-i-built",
+  "hook_type": "contrarian",
+  "status": "ready-to-publish",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [],
+  "tags": ["AI", "Context Engineering", "Content Creation", "Claude", "Productivity", "Systems"],
+  "safety_review": "passed",
+  "word_count": 289,
+  "language_variants": {
+    "primary": "en",
+    "available": ["en", "es"],
+    "files": {
+      "en": "linkedin-post-english.md",
+      "es": "linkedin-post.md"
+    }
+  }
+}

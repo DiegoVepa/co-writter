@@ -4,7 +4,7 @@
   "platform": ["linkedin"],
   "audience": "career",
   "theme": "what-i-built",
-  "hook_type": "unexpected-reframe",
+  "hook_type": "reframe",
   "status": "draft",
   "published_date": null,
   "published_url": null,
