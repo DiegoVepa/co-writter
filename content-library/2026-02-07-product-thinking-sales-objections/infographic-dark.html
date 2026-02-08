@@ -2,20 +2,20 @@
 <html>
 <head>
 <style>
-html { background: #FDF6F0; }
+html { background: #1F1F1F; }
 body {
   width: 540pt; height: 540pt; margin: 0; padding: 0;
-  background: #FDF6F0; font-family: Arial, sans-serif;
+  background: #1F1F1F; font-family: Arial, sans-serif;
   position: relative; box-sizing: border-box;
 }
-/* Decorative blobs */
+/* Decorative blobs - subtle on dark */
 .blob-top {
   position: absolute; top: 0; left: 0; width: 140pt; height: 140pt;
-  background: radial-gradient(circle at 30% 30%, rgba(232, 97, 26, 0.12), transparent 70%);
+  background: radial-gradient(circle at 30% 30%, rgba(232, 97, 26, 0.20), transparent 70%);
 }
 .blob-bottom {
   position: absolute; bottom: 0; right: 0; width: 160pt; height: 160pt;
-  background: radial-gradient(circle at 70% 70%, rgba(232, 97, 26, 0.1), transparent 70%);
+  background: radial-gradient(circle at 70% 70%, rgba(232, 97, 26, 0.15), transparent 70%);
 }
 /* Main content */
 .content {
@@ -32,15 +32,15 @@ body {
   flex: 1;
 }
 .headline .orange { color: #E8611A; font-size: 22pt; font-weight: bold; }
-.headline .black { color: #1A1A1A; font-size: 22pt; font-weight: bold; }
-.subtitle { color: #6B6B6B; font-size: 11pt; font-style: italic; margin-top: 6pt; }
+.headline .white { color: #FFFFFF; font-size: 22pt; font-weight: bold; }
+.subtitle { color: #A0A0A0; font-size: 11pt; font-style: italic; margin-top: 6pt; }
 /* Photo area */
 .photo-area {
   width: 100pt; height: 100pt; border-radius: 50%;
   background: url('../../assets/photos/diego-transparent.png') center center / cover;
   border: 3pt solid #E8611A;
   flex-shrink: 0;
-  box-shadow: 0 4pt 12pt rgba(232, 97, 26, 0.2);
+  box-shadow: 0 4pt 16pt rgba(232, 97, 26, 0.35);
 }
 /* Framework section */
 .framework-title {
@@ -53,9 +53,10 @@ body {
   flex: 1;
 }
 .step {
-  flex: 1; background: white; border-radius: 12pt;
+  flex: 1; background: #2D2D2D; border-radius: 12pt;
   padding: 15pt 12pt; text-align: center;
-  box-shadow: 0 2pt 8pt rgba(0,0,0,0.06);
+  box-shadow: 0 2pt 12pt rgba(0,0,0,0.3);
+  border: 1pt solid #3D3D3D;
   display: flex; flex-direction: column;
 }
 .step-num {
@@ -64,7 +65,7 @@ body {
   font-size: 14pt; font-weight: bold; margin: 0 auto 8pt auto;
 }
 .step-title { color: #E8611A; font-size: 13pt; font-weight: bold; margin-bottom: 6pt; }
-.step-desc { color: #1A1A1A; font-size: 9pt; line-height: 1.4; flex: 1; }
+.step-desc { color: #E0E0E0; font-size: 9pt; line-height: 1.4; flex: 1; }
 /* Arrow connectors */
 .arrow {
   color: #E8611A; font-size: 18pt; font-weight: bold;
@@ -81,7 +82,7 @@ body {
 }
 .handle { color: #E8611A; font-size: 11pt; font-weight: bold; }
 .insight {
-  color: #1A1A1A; font-size: 11pt; text-align: center;
+  color: #C0C0C0; font-size: 11pt; text-align: center;
   font-style: italic; margin-top: 12pt;
 }
 </style>
@@ -94,8 +95,8 @@ body {
   <div class="header">
     <div class="headline">
       <span class="orange">SALES OBJECTIONS</span><br>
-      <span class="black">aren't blockers.</span><br>
-      <span class="black">They're</span> <span class="orange">PRODUCT FEEDBACK.</span>
+      <span class="white">aren't blockers.</span><br>
+      <span class="white">They're</span> <span class="orange">PRODUCT FEEDBACK.</span>
       <p class="subtitle">Turn every "no" into product intelligence.</p>
     </div>
     <div class="photo-area"></div>
