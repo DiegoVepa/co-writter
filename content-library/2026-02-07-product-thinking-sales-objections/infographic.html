@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FDF6F0; }
+body {
+  width: 540pt; height: 540pt; margin: 0; padding: 0;
+  background: #FDF6F0; font-family: Arial, sans-serif;
+  position: relative; box-sizing: border-box;
+}
+/* Decorative blobs */
+.blob-top {
+  position: absolute; top: 0; left: 0; width: 140pt; height: 140pt;
+  background: radial-gradient(circle at 30% 30%, rgba(232, 97, 26, 0.12), transparent 70%);
+}
+.blob-bottom {
+  position: absolute; bottom: 0; right: 0; width: 160pt; height: 160pt;
+  background: radial-gradient(circle at 70% 70%, rgba(232, 97, 26, 0.1), transparent 70%);
+}
+/* Main content */
+.content {
+  position: relative; z-index: 1;
+  padding: 30pt; height: 100%; box-sizing: border-box;
+  display: flex; flex-direction: column;
+}
+/* Header */
+.header {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  margin-bottom: 15pt;
+}
+.headline {
+  flex: 1;
+}
+.headline .orange { color: #E8611A; font-size: 22pt; font-weight: bold; }
+.headline .black { color: #1A1A1A; font-size: 22pt; font-weight: bold; }
+.subtitle { color: #6B6B6B; font-size: 11pt; font-style: italic; margin-top: 6pt; }
+/* Photo area */
+.photo-area {
+  width: 100pt; height: 100pt; border-radius: 50%;
+  background: url('../../assets/photos/diego-cutout.jpg') center center / cover;
+  border: 3pt solid #E8611A;
+  flex-shrink: 0;
+  box-shadow: 0 4pt 12pt rgba(232, 97, 26, 0.2);
+}
+/* Framework section */
+.framework-title {
+  color: #E8611A; font-size: 13pt; font-weight: bold;
+  text-transform: uppercase; letter-spacing: 1pt;
+  margin-bottom: 12pt; text-align: center;
+}
+.framework {
+  display: flex; justify-content: space-between; gap: 12pt;
+  flex: 1;
+}
+.step {
+  flex: 1; background: white; border-radius: 12pt;
+  padding: 15pt 12pt; text-align: center;
+  box-shadow: 0 2pt 8pt rgba(0,0,0,0.06);
+  display: flex; flex-direction: column;
+}
+.step-num {
+  background: #E8611A; color: white; width: 28pt; height: 28pt;
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-size: 14pt; font-weight: bold; margin: 0 auto 8pt auto;
+}
+.step-title { color: #E8611A; font-size: 13pt; font-weight: bold; margin-bottom: 6pt; }
+.step-desc { color: #1A1A1A; font-size: 9pt; line-height: 1.4; flex: 1; }
+/* Arrow connectors */
+.arrow {
+  color: #E8611A; font-size: 18pt; font-weight: bold;
+  display: flex; align-items: center; padding: 0 4pt;
+}
+/* Footer */
+.footer {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 15pt;
+}
+.pill {
+  background: #E8611A; color: white; font-size: 10pt; font-weight: bold;
+  padding: 10pt 16pt; border-radius: 20pt;
+}
+.handle { color: #E8611A; font-size: 11pt; font-weight: bold; }
+.insight {
+  color: #1A1A1A; font-size: 11pt; text-align: center;
+  font-style: italic; margin-top: 12pt;
+}
+</style>
+</head>
+<body>
+<div class="blob-top"></div>
+<div class="blob-bottom"></div>
+<div class="content">
+  <!-- Header with headline and photo -->
+  <div class="header">
+    <div class="headline">
+      <span class="orange">SALES OBJECTIONS</span><br>
+      <span class="black">aren't blockers.</span><br>
+      <span class="black">They're</span> <span class="orange">PRODUCT FEEDBACK.</span>
+      <p class="subtitle">Turn every "no" into product intelligence.</p>
+    </div>
+    <div class="photo-area"></div>
+  </div>
+
+  <!-- Framework title -->
+  <p class="framework-title">The Objection &#8594; Insight Pipeline</p>
+
+  <!-- 4-step framework -->
+  <div class="framework">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-title">Capture</div>
+      <div class="step-desc">Record exact words, not your interpretation</div>
+    </div>
+    <div class="arrow">&#8594;</div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-title">Pattern</div>
+      <div class="step-desc">Have I heard this before? How often?</div>
+    </div>
+    <div class="arrow">&#8594;</div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-title">Signal</div>
+      <div class="step-desc">Pricing, positioning, or feature gap?</div>
+    </div>
+    <div class="arrow">&#8594;</div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-title">Route</div>
+      <div class="step-desc">Does product know? Does marketing know?</div>
+    </div>
+  </div>
+
+  <!-- Insight -->
+  <p class="insight">"The best salespeople aren't just closers&#8212;they're real-time user researchers."</p>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="pill">Product thinking applied to sales.</div>
+    <span class="handle">@DiegoVences</span>
+  </div>
+</div>
+</body>
+</html>

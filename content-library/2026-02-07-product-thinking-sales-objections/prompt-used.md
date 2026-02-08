@@ -122,4 +122,31 @@ node generate-carousel.js
 
 ---
 
+## Nano Banana Photo Prompt
+
+**Scene:** Professional headshot with blurred city skyline
+
+```
+Generate a professional headshot photo composite background.
+
+Scene: Blurred city skyline at golden hour/dusk. Modern urban setting
+with soft bokeh lights from buildings. Professional, aspirational feel.
+
+Style: Editorial photography quality. Warm color temperature with
+soft focus. Suitable for compositing a person's headshot on top.
+
+Color mood: Warm tones that complement orange #E8611A accent color.
+Soft blues and warm oranges in the blurred cityscape.
+
+Dimensions: 1080x1080 pixels (square for LinkedIn).
+
+No people in the image — Diego's cutout photo will be composited
+on top. Leave the center-right area relatively clear for photo placement.
+```
+
+**Usage:** Composite this background with Diego's cutout photo, then
+place in the photo-area circle on the infographic.
+
+---
+
 **End of Prompt Specification**

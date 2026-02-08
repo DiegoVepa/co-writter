@@ -7,3 +7,14 @@ node_modules/
 # Editor files
 .vscode/
 *.swp
+
+# Environment variables (API keys)
+.env
+.env.local
+.env.*.local
+
+# Generated previews
+*-preview.html
+
+# MCP server dependencies
+mcp-servers/*/node_modules/
