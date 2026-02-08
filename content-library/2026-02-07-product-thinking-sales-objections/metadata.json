@@ -1,0 +1,34 @@
+{
+  "date_created": "2026-02-07",
+  "title": "Product Thinking Applied to Sales: From Objections to Features",
+  "platform": ["linkedin"],
+  "audience": "career",
+  "theme": "ai-for-ops",
+  "hook_type": "contrarian",
+  "status": "draft",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [],
+  "tags": ["product-management", "sales", "cross-functional", "product-thinking", "user-research", "frameworks", "career-pivot"],
+  "safety_review": "passed",
+  "word_count": 280,
+  "language_variants": {
+    "primary": "en",
+    "available": ["en"],
+    "files": {
+      "en": "linkedin-post.md"
+    }
+  },
+  "framework": {
+    "name": "Objection-to-Insight Framework",
+    "steps": ["Capture", "Pattern", "Signal", "Route"]
+  }
+}

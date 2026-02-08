@@ -1,0 +1,31 @@
+{
+  "date_created": "2026-02-07",
+  "title": "Peru AI Experiments with Luis",
+  "platform": ["linkedin"],
+  "audience": "both",
+  "theme": "what-i-built",
+  "hook_type": "what-i-built",
+  "status": "draft",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [],
+  "tags": ["AI", "automation", "build-in-public", "n8n", "vapi", "claude-code", "boring-business", "weekend-projects"],
+  "safety_review": "passed",
+  "word_count": 185,
+  "language_variants": {
+    "primary": "en",
+    "available": ["en"],
+    "files": {
+      "en": "linkedin-post.md"
+    }
+  },
+  "tools_mentioned": ["Claude Code", "n8n", "Vapi", "Gemini Nano", "Banana Dev", "Potencie"]
+}

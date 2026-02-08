@@ -2,8 +2,8 @@
 
 **Purpose:** Organized archive of all content created through the co-writing system
 **Owner:** Diego Vences
-**Total Posts:** 7
-**Last Updated:** 2026-01-26
+**Total Posts:** 9
+**Last Updated:** 2026-02-07
 
 ---
 
@@ -18,6 +18,8 @@
 
 | Date | Title | Platform | Audience | Status | Link |
 |------|-------|----------|----------|--------|------|
+| 2026-02-07 | Peru AI Experiments with Luis | Linkedin | Both | Draft | [View](2026-02-07-peru-ai-experiments-luis/) |
+| 2026-02-07 | Product Thinking Applied to Sales: From Objections to Features | Linkedin | Career | Draft | [View](2026-02-07-product-thinking-sales-objections/) |
 | 2026-01-25 | Mi Ciclo de IA - Operations Over Training | Linkedin | Both | Ready | [View](2026-01-25-mi-ciclo-de-ia-operaciones/) |
 | 2026-01-25 | My AI Cycle - Claude as Co-Writer | Linkedin | Career | Ready | [View](2026-01-25-mi-ciclo-ia-co-writer/) |
 | 2026-01-25 | AI-Native Businesses | Linkedin | Both | Ready | [View](2026-01-25-negocios-ia-native/) |
@@ -34,6 +36,7 @@
 ### What I Built
 _Posts showcasing technical builds, tools, and automation projects_
 
+- [2026-02-07: Peru AI Experiments with Luis](2026-02-07-peru-ai-experiments-luis/)
 - [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
 - [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
 
@@ -50,6 +53,7 @@ _Posts about AI/automation for HVAC, trades, and unsexy industries_
 ### AI for Ops & GTM
 _Posts about automation for sales operations, marketing, and cross-functional workflows_
 
+- [2026-02-07: Product Thinking Applied to Sales: From Objections to Features](2026-02-07-product-thinking-sales-objections/)
 - [2026-01-25: Mi Ciclo de IA - Operations Over Training](2026-01-25-mi-ciclo-de-ia-operaciones/)
 - [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
 - [2026-01-18: Using NotebookLM as a Learning Tool for Meta Ads](2026-01-18-notebooklm-learning-tool/)
@@ -61,8 +65,9 @@ _Posts about automation for sales operations, marketing, and cross-functional wo
 ### Career Pivot (Product/Marketing Hiring Managers)
 _Technical credibility, product thinking, cross-functional showcases_
 
-**Total:** 3 posts
+**Total:** 4 posts
 
+- [2026-02-07: Product Thinking Applied to Sales: From Objections to Features](2026-02-07-product-thinking-sales-objections/)
 - [2026-01-25: My AI Cycle - Claude as Co-Writer](2026-01-25-mi-ciclo-ia-co-writer/)
 - [2026-01-25: From AI Pilots to Real Impact](2026-01-25-pilotos-a-impacto/)
 - [2025-12-27: Claude Code: Skills vs Cloud Desktop](2025-12-27-claude-code-skills-vs-desktop/)
@@ -80,8 +85,9 @@ _Boring business case studies, ROI-focused, plain language_
 ### Both Audiences
 _Overlap content that serves both Career and Agency goals_
 
-**Total:** 4 posts
+**Total:** 5 posts
 
+- [2026-02-07: Peru AI Experiments with Luis](2026-02-07-peru-ai-experiments-luis/)
 - [2026-01-25: Mi Ciclo de IA - Operations Over Training](2026-01-25-mi-ciclo-de-ia-operaciones/)
 - [2026-01-25: AI-Native Businesses](2026-01-25-negocios-ia-native/)
 - [2026-01-18: AI Video Production for Small Businesses - PhD Research Insight](2026-01-18-ai-video-production-smbs/)
@@ -132,7 +138,7 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Platform Distribution
 
-**Linkedin:** 7 posts
+**Linkedin:** 9 posts
 **Twitter:** 0 posts
 **Substack:** 0 posts
 
@@ -140,8 +146,8 @@ _Posts that generated the most quality inbound messages from target audiences_
 
 ### Hook Type Performance
 
-**Contrarian Takes:** 5 posts
-**What I Built:** 1 posts
+**Contrarian Takes:** 6 posts
+**What I Built:** 2 posts
 **Reframe:** 1 posts
 **Before/After:** 0 posts
 **Problem-First:** 0 posts
@@ -152,6 +158,10 @@ _Posts that generated the most quality inbound messages from target audiences_
 ## Monthly Archive
 
 ### 2026
+
+**February:**
+- [2026-02-07: Peru AI Experiments with Luis](2026-02-07-peru-ai-experiments-luis/)
+- [2026-02-07: Product Thinking Applied to Sales: From Objections to Features](2026-02-07-product-thinking-sales-objections/)
 
 **January:**
 - [2026-01-25: Mi Ciclo de IA - Operations Over Training](2026-01-25-mi-ciclo-de-ia-operaciones/)
