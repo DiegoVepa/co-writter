@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FDF6F0; }
+body {
+  width: 540pt; height: 540pt; margin: 0; padding: 0;
+  background: #FDF6F0; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  position: relative; text-align: center;
+}
+.blob-top {
+  position: absolute; top: 0; left: 0; width: 140pt; height: 140pt;
+  background: radial-gradient(circle at 30% 30%, rgba(232, 97, 26, 0.12), transparent 70%);
+}
+.blob-bottom {
+  position: absolute; bottom: 0; right: 0; width: 160pt; height: 160pt;
+  background: radial-gradient(circle at 70% 70%, rgba(232, 97, 26, 0.1), transparent 70%);
+}
+.content { z-index: 1; padding: 50pt; }
+.headline { font-size: 34pt; font-weight: bold; line-height: 1.3; margin-bottom: 30pt; }
+.headline .black { color: #1A1A1A; }
+.headline .orange { color: #E8611A; }
+.subtext { color: #1A1A1A; font-size: 20pt; line-height: 1.5; margin-bottom: 35pt; }
+.pill {
+  background: #E8611A; color: #FFFFFF; font-size: 14pt; font-weight: bold;
+  padding: 14pt 24pt; border-radius: 30pt; display: inline-block;
+}
+.handle { color: #E8611A; font-size: 14pt; font-weight: bold; margin-top: 40pt; }
+</style>
+</head>
+<body>
+<div class="blob-top"></div>
+<div class="blob-bottom"></div>
+<div class="content">
+  <p class="headline">
+    <span class="black">The best salespeople</span><br>
+    <span class="black">aren't just</span> <span class="orange">closers.</span>
+  </p>
+  <p class="subtext">
+    They're the closest thing product teams<br>
+    have to real-time user research.
+  </p>
+  <div class="pill">Product thinking applied to sales.</div>
+  <p class="handle">@DiegoVences</p>
+</div>
+</body>
+</html>

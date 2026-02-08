@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FDF6F0; }
+body {
+  width: 540pt; height: 540pt; margin: 0; padding: 0;
+  background: #FDF6F0; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column; position: relative;
+}
+.blob-top {
+  position: absolute; top: 0; right: 0; width: 100pt; height: 100pt;
+  background: radial-gradient(circle at 70% 30%, rgba(232, 97, 26, 0.12), transparent 70%);
+}
+.content { z-index: 1; display: flex; flex-direction: column; height: 100%; padding: 40pt; box-sizing: border-box; }
+h1 { color: #1A1A1A; font-size: 32pt; margin: 0 0 30pt 0; }
+h1 .orange { color: #E8611A; }
+.columns { display: flex; gap: 30pt; flex: 1; }
+.column { flex: 1; }
+.column-title { color: #E8611A; font-size: 14pt; font-weight: bold; text-transform: uppercase; letter-spacing: 1pt; margin-bottom: 15pt; }
+.old-title { color: #6B6B6B; }
+.item { color: #1A1A1A; font-size: 16pt; margin-bottom: 12pt; line-height: 1.4; }
+.item-icon { color: #E8611A; margin-right: 8pt; }
+.old .item { color: #6B6B6B; text-decoration: line-through; }
+.pill {
+  background: #E8611A; color: #FFFFFF; font-size: 14pt; font-weight: bold;
+  padding: 12pt 20pt; border-radius: 25pt; text-align: center; margin-top: auto;
+}
+.chevrons { color: #E8611A; font-size: 24pt; position: absolute; bottom: 40pt; right: 40pt; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="blob-top"></div>
+<div class="content">
+  <h1>The <span class="orange">Shift</span></h1>
+  <div class="columns">
+    <div class="column old">
+      <p class="column-title old-title">Old Mindset</p>
+      <p class="item">Handle the objection</p>
+      <p class="item">Reframe it</p>
+      <p class="item">Push past it</p>
+      <p class="item">Close the deal</p>
+    </div>
+    <div class="column">
+      <p class="column-title">New Mindset</p>
+      <p class="item"><span class="item-icon">></span>Capture exact words</p>
+      <p class="item"><span class="item-icon">></span>Look for patterns</p>
+      <p class="item"><span class="item-icon">></span>Route to product</p>
+      <p class="item"><span class="item-icon">></span>Improve the system</p>
+    </div>
+  </div>
+  <div class="pill">Stop solving in the moment. Start solving in the product.</div>
+</div>
+<span class="chevrons">>>></span>
+</body>
+</html>
