@@ -757,4 +757,156 @@ Before delivering any visual asset, verify:
 
 ---
 
+## 12. Interactive Visual Workflow
+
+**CRITICAL:** After post content is finalized, follow this interactive decision flow before creating any visuals.
+
+### Step 0: LinkedIn Style Check (Optional)
+
+If Chrome extension is available and connected:
+1. Navigate to user's LinkedIn recent posts
+2. Screenshot 2-3 recent visuals for style reference
+3. Note patterns: light vs dark, photo usage, layout consistency
+4. Suggest template that matches existing style
+
+If Chrome extension unavailable, skip to Step 1.
+
+### Step 1: Creative Type Selection
+
+**Always ask first:**
+
+```
+What type of creative do you want for this post?
+
+1. Carousel (multi-slide, swipeable) - Best for frameworks, step-by-step, tutorials
+2. Single Image (quote card, hook) - Best for bold statements, hooks
+3. Infographic (data/stats visual) - Best for proof points, research findings
+4. GIF/Animation (motion) - Best for engagement, simple demos
+5. Video (full motion graphics) - Best for tutorials, walkthroughs
+6. Case Study Essay (long-form) - Best for Substack deep dives
+7. Text-only (no visual needed)
+```
+
+**Use AskUserQuestion tool with these options.**
+
+### Step 2: Photo Integration
+
+**After creative type is selected, ask:**
+
+```
+Do you want to include your photo in this creative?
+
+1. Yes - use existing cutout photo (/assets/photos/diego-cutout.png)
+2. Yes - use existing dark background photo (/assets/photos/diego-dark.png)
+3. Yes - generate new photo composite via Nano Banana (I'll ask for scene description)
+4. No photo needed for this one
+```
+
+**Photo file locations:**
+- Cutout (transparent bg): `/assets/photos/diego-cutout.png`
+- Dark background: `/assets/photos/diego-dark.png`
+- Generated composites: Save to `/assets/photos/generated/`
+
+**If user selects Nano Banana generation:**
+Ask: "Describe the scene or background you want for the photo composite (e.g., 'modern tech office', 'dark gradient with subtle tech elements', 'standing at whiteboard')"
+
+### Step 3: Template Style Selection
+
+**Ask:**
+
+```
+Which template style?
+
+1. Light mode (cream #FDF6F0 background) - Warm, professional, Career Pivot audience
+2. Dark mode (charcoal #2D2D2D background) - Bold, modern, Agency Build audience
+3. Auto - Let me decide based on audience segment
+```
+
+**Auto-selection logic:**
+- If `audience: "career"` in metadata → Light mode
+- If `audience: "agency"` in metadata → Dark mode
+- If `audience: "both"` in metadata → Ask user to choose
+
+### Step 4: Generate & Preview
+
+1. Create visual assets (HTML slides, images, etc.)
+2. Start local HTTP server: `python3 -m http.server 8765`
+3. Navigate with Playwright and take screenshots
+4. Show all visuals to user for review
+
+**Ask:**
+```
+Here are your visuals for review. Do you approve, or would you like changes?
+
+1. Approved - Generate final export
+2. Changes needed - (specify what to change)
+```
+
+### Step 5: Iterate or Export
+
+**If changes needed:**
+- Ask: "What would you like to change? (colors, text, layout, photo placement, etc.)"
+- Make modifications
+- Return to Step 4 (preview again)
+
+**If approved:**
+1. Generate final PPTX (for carousels): `node generate-carousel.js`
+2. Export PNG files for individual slides
+3. Save all assets to content library folder
+4. Update metadata.json with asset paths
+5. Commit and push to GitHub
+
+---
+
+## 13. Interactive Workflow Code Reference
+
+### AskUserQuestion for Creative Type
+```javascript
+// Use this structure when asking about creative type
+{
+  "question": "What type of creative do you want for this post?",
+  "header": "Creative Type",
+  "options": [
+    {"label": "Carousel", "description": "Multi-slide, swipeable - frameworks, tutorials"},
+    {"label": "Single Image", "description": "Quote card, hook - bold statements"},
+    {"label": "Infographic", "description": "Data/stats visual - proof points"},
+    {"label": "GIF/Animation", "description": "Motion graphics - engagement"},
+    {"label": "Video", "description": "Full motion - tutorials, walkthroughs"},
+    {"label": "Text-only", "description": "No visual needed"}
+  ],
+  "multiSelect": false
+}
+```
+
+### AskUserQuestion for Photo
+```javascript
+{
+  "question": "Include your photo in this creative?",
+  "header": "Photo",
+  "options": [
+    {"label": "Existing cutout", "description": "Use diego-cutout.png (transparent bg)"},
+    {"label": "Existing dark bg", "description": "Use diego-dark.png"},
+    {"label": "Generate new", "description": "Create via Nano Banana (I'll ask for scene)"},
+    {"label": "No photo", "description": "Skip photo for this one"}
+  ],
+  "multiSelect": false
+}
+```
+
+### AskUserQuestion for Template
+```javascript
+{
+  "question": "Which template style?",
+  "header": "Template",
+  "options": [
+    {"label": "Light mode", "description": "Cream background - warm, professional"},
+    {"label": "Dark mode", "description": "Charcoal background - bold, modern"},
+    {"label": "Auto", "description": "Decide based on audience segment"}
+  ],
+  "multiSelect": false
+}
+```
+
+---
+
 **End of Skill: linkedin-visuals**

@@ -496,9 +496,17 @@ When you receive a content request, follow this sequence:
 - Use appropriate voice for target audience
 - Include proof points where relevant
 
-### **Step 5: Propose Assets**
-- What visuals would strengthen this?
-- Image prompts, carousel structure, charts?
+### **Step 5: Interactive Visual Workflow**
+Follow the interactive visual workflow in `/skills/visuals/linkedin-visuals.md` Section 12:
+
+1. **LinkedIn Style Check** (optional, if Chrome extension available)
+2. **Ask: Creative Type** — Carousel, Single Image, Infographic, GIF, Video, Essay, or Text-only
+3. **Ask: Photo Integration** — Existing cutout, dark bg, generate via Nano Banana, or none
+4. **Ask: Template Style** — Light (cream), Dark (charcoal), or Auto
+5. **Generate & Preview** — Show visuals for approval before export
+6. **Iterate or Export** — Make changes if needed, then save to content library
+
+**Use AskUserQuestion tool** at each decision point for interactive flow.
 
 ### **Step 6: Flag Risks**
 - If anything feels like it violates Track 1 (Employment Safety), flag it explicitly
