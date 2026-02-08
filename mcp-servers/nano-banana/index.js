@@ -16,7 +16,7 @@ import {
   CallToolRequestSchema,
   ListToolsRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenAI } from '@google/genai';
 import fs from 'fs';
 import path from 'path';
 import { config } from 'dotenv';
@@ -34,7 +34,7 @@ if (!apiKey) {
   process.exit(1);
 }
 
-const genAI = new GoogleGenerativeAI(apiKey);
+const ai = new GoogleGenAI({ apiKey });
 
 // Initialize MCP server
 const server = new Server(
@@ -141,6 +141,44 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
           required: ['photosDir', 'postTopic', 'creativeType'],
         },
       },
+      {
+        name: 'generate_infographic',
+        description: 'Generate a hand-drawn style infographic for LinkedIn posts. Creates a whiteboard/notebook style image with handwritten text and doodles using only black and orange (#E8611A) markers.',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            topic: {
+              type: 'string',
+              description: 'Main topic/title of the infographic',
+            },
+            sections: {
+              type: 'array',
+              items: {
+                type: 'object',
+                properties: {
+                  heading: { type: 'string', description: 'Section heading' },
+                  bullets: {
+                    type: 'array',
+                    items: { type: 'string' },
+                    description: 'Bullet points for this section',
+                  },
+                  icon: { type: 'string', description: 'Icon suggestion (e.g., lightbulb, clipboard, gear)' },
+                },
+              },
+              description: 'Array of 3-5 sections, each with heading, bullets, and icon suggestion',
+            },
+            keyTakeaway: {
+              type: 'string',
+              description: 'Key takeaway to highlight at the bottom',
+            },
+            outputPath: {
+              type: 'string',
+              description: 'Path to save the generated infographic',
+            },
+          },
+          required: ['topic', 'sections', 'keyTakeaway'],
+        },
+      },
     ],
   };
 });
@@ -152,9 +190,6 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   try {
     switch (name) {
       case 'generate_image': {
-        // Use gemma-3-27b-it as primary (reliable quota), fallback to gemini models
-const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
-
         const stylePrompts = {
           professional: 'Professional, clean, corporate style. High quality.',
           casual: 'Casual, approachable, friendly style.',
@@ -164,21 +199,73 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
 
         const fullPrompt = `${args.prompt}. ${stylePrompts[args.style] || stylePrompts.professional}`;
 
-        // Note: Gemini 2.0 has image generation capabilities
-        // For now, return a prompt that can be used with Imagen API
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify({
-                status: 'prompt_ready',
-                prompt: fullPrompt,
-                message: 'Image generation prompt prepared. Use Google Imagen API or Cloud Console to generate.',
-                suggestedFilename: args.outputPath || 'generated-image.png',
-              }),
+        try {
+          // Use Gemini 2.0 Flash for image generation
+          const response = await ai.models.generateContent({
+            model: 'gemini-2.0-flash-exp-image-generation',
+            contents: fullPrompt,
+            config: {
+              responseModalities: ['image', 'text'],
             },
-          ],
-        };
+          });
+
+          // Extract image from response
+          const parts = response.candidates?.[0]?.content?.parts || [];
+          for (const part of parts) {
+            if (part.inlineData) {
+              const imageBytes = part.inlineData.data;
+              const mimeType = part.inlineData.mimeType || 'image/png';
+              const ext = mimeType.includes('jpeg') ? 'jpg' : 'png';
+              const outputPath = args.outputPath || path.join(process.cwd(), `generated-${Date.now()}.${ext}`);
+
+              const buffer = Buffer.from(imageBytes, 'base64');
+              fs.writeFileSync(outputPath, buffer);
+
+              return {
+                content: [
+                  {
+                    type: 'text',
+                    text: JSON.stringify({
+                      status: 'image_generated',
+                      imagePath: outputPath,
+                      prompt: fullPrompt,
+                    }),
+                  },
+                ],
+              };
+            }
+          }
+
+          // Fallback: return prompt if no image was generated
+          return {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify({
+                  status: 'prompt_ready',
+                  prompt: fullPrompt,
+                  message: 'Model did not return an image. Use this prompt with Imagen API.',
+                  suggestedFilename: args.outputPath || 'generated-image.png',
+                }),
+              },
+            ],
+          };
+        } catch (genError) {
+          // Fallback to prompt-only mode
+          return {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify({
+                  status: 'prompt_ready',
+                  prompt: fullPrompt,
+                  message: `Image generation failed (${genError.message}). Use this prompt with Imagen API.`,
+                  suggestedFilename: args.outputPath || 'generated-image.png',
+                }),
+              },
+            ],
+          };
+        }
       }
 
       case 'generate_background': {
@@ -196,27 +283,81 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
           No people in the image. Professional, editorial photography quality.
           Square format 1080x1080 pixels.`;
 
-        return {
-          content: [
-            {
-              type: 'text',
-              text: JSON.stringify({
-                status: 'prompt_ready',
-                prompt: backgroundPrompt,
-                scene: args.scene,
-                mood: args.mood || 'warm',
-                message: 'Background generation prompt prepared.',
-                suggestedFilename: args.outputPath || 'background.png',
-              }),
+        try {
+          // Use Gemini 2.0 Flash for image generation
+          const response = await ai.models.generateContent({
+            model: 'gemini-2.0-flash-exp-image-generation',
+            contents: backgroundPrompt,
+            config: {
+              responseModalities: ['image', 'text'],
             },
-          ],
-        };
+          });
+
+          // Extract image from response
+          const parts = response.candidates?.[0]?.content?.parts || [];
+          for (const part of parts) {
+            if (part.inlineData) {
+              const imageBytes = part.inlineData.data;
+              const mimeType = part.inlineData.mimeType || 'image/png';
+              const ext = mimeType.includes('jpeg') ? 'jpg' : 'png';
+              const outputPath = args.outputPath || path.join(process.cwd(), `background-${Date.now()}.${ext}`);
+
+              const buffer = Buffer.from(imageBytes, 'base64');
+              fs.writeFileSync(outputPath, buffer);
+
+              return {
+                content: [
+                  {
+                    type: 'text',
+                    text: JSON.stringify({
+                      status: 'image_generated',
+                      imagePath: outputPath,
+                      scene: args.scene,
+                      mood: args.mood || 'warm',
+                    }),
+                  },
+                ],
+              };
+            }
+          }
+
+          // Fallback: return prompt if no image was generated
+          return {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify({
+                  status: 'prompt_ready',
+                  prompt: backgroundPrompt,
+                  scene: args.scene,
+                  mood: args.mood || 'warm',
+                  message: 'Model did not return an image. Use this prompt with Imagen API.',
+                  suggestedFilename: args.outputPath || 'background.png',
+                }),
+              },
+            ],
+          };
+        } catch (genError) {
+          // Fallback to prompt-only mode
+          return {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify({
+                  status: 'prompt_ready',
+                  prompt: backgroundPrompt,
+                  scene: args.scene,
+                  mood: args.mood || 'warm',
+                  message: `Image generation failed (${genError.message}). Use this prompt with Imagen API.`,
+                  suggestedFilename: args.outputPath || 'background.png',
+                }),
+              },
+            ],
+          };
+        }
       }
 
       case 'analyze_photo': {
-        // Use gemma-3-27b-it as primary (reliable quota), fallback to gemini models
-const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
-
         // Read the image file
         const imagePath = args.imagePath;
         if (!fs.existsSync(imagePath)) {
@@ -227,14 +368,19 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
         const base64Image = imageData.toString('base64');
         const mimeType = imagePath.toLowerCase().endsWith('.png') ? 'image/png' : 'image/jpeg';
 
-        const result = await model.generateContent([
-          {
-            inlineData: {
-              mimeType,
-              data: base64Image,
-            },
-          },
-          `Analyze this photo for use in LinkedIn content creation. Provide:
+        const result = await ai.models.generateContent({
+          model: 'gemini-2.0-flash',
+          contents: [
+            {
+              parts: [
+                {
+                  inlineData: {
+                    mimeType,
+                    data: base64Image,
+                  },
+                },
+                {
+                  text: `Analyze this photo for use in LinkedIn content creation. Provide:
           1. Subject description (pose, attire, expression)
           2. Background description
           3. Lighting quality (warm/cool/neutral, soft/harsh)
@@ -243,7 +389,11 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
           6. Recommended template style (light cream background or dark charcoal)
 
           Format as JSON.`,
-        ]);
+                },
+              ],
+            },
+          ],
+        });
 
         return {
           content: [
@@ -252,7 +402,7 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
               text: JSON.stringify({
                 status: 'analyzed',
                 imagePath: args.imagePath,
-                analysis: result.response.text(),
+                analysis: result.candidates?.[0]?.content?.parts?.[0]?.text || 'No analysis returned',
               }),
             },
           ],
@@ -260,9 +410,6 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
       }
 
       case 'suggest_photo': {
-        // Use gemma-3-27b-it as primary (reliable quota), fallback to gemini models
-const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
-
         // List photos in directory
         const photosDir = args.photosDir;
         if (!fs.existsSync(photosDir)) {
@@ -282,20 +429,29 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
             const base64Image = imageData.toString('base64');
             const mimeType = photo.toLowerCase().endsWith('.png') ? 'image/png' : 'image/jpeg';
 
-            const result = await model.generateContent([
-              {
-                inlineData: {
-                  mimeType,
-                  data: base64Image,
+            const result = await ai.models.generateContent({
+              model: 'gemini-2.0-flash',
+              contents: [
+                {
+                  parts: [
+                    {
+                      inlineData: {
+                        mimeType,
+                        data: base64Image,
+                      },
+                    },
+                    {
+                      text: 'Briefly describe this photo in 20 words: pose, attire, mood, background.',
+                    },
+                  ],
                 },
-              },
-              'Briefly describe this photo in 20 words: pose, attire, mood, background.',
-            ]);
+              ],
+            });
 
             photoAnalyses.push({
               file: photo,
               path: fullPath,
-              description: result.response.text(),
+              description: result.candidates?.[0]?.content?.parts?.[0]?.text || 'No description',
             });
           } catch (e) {
             // Skip problematic files
@@ -318,7 +474,10 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
 
         Return JSON with: selectedFile, selectedPath, reason`;
 
-        const selectionResult = await model.generateContent(selectionPrompt);
+        const selectionResult = await ai.models.generateContent({
+          model: 'gemini-2.0-flash',
+          contents: selectionPrompt,
+        });
 
         return {
           content: [
@@ -329,11 +488,150 @@ const model = genAI.getGenerativeModel({ model: 'gemma-3-27b-it' });
                 postTopic: args.postTopic,
                 creativeType: args.creativeType,
                 availablePhotos: photoAnalyses.length,
-                selection: selectionResult.response.text(),
+                selection: selectionResult.candidates?.[0]?.content?.parts?.[0]?.text || 'No selection',
               }),
             },
           ],
         };
+      }
+
+      case 'generate_infographic': {
+        // Build sections text
+        const sectionsText = args.sections.map((s, i) => {
+          const bulletList = s.bullets.map(b => `   • ${b}`).join('\n');
+          return `Section ${i + 1} - ${s.heading.toUpperCase()} (orange heading):
+${bulletList}
+[${s.icon || 'icon'} doodle]`;
+        }).join('\n\n');
+
+        const infographicPrompt = `You are a visual infographic designer.
+Generate a single hand-drawn infographic image.
+
+TOPIC:
+${args.topic}
+
+CONTENT TO VISUALIZE:
+${sectionsText}
+
+KEY TAKEAWAY:
+${args.keyTakeaway}
+
+OUTPUT REQUIREMENTS:
+Generate ONE single image only.
+
+STYLE:
+- The image must look like a real photograph of a hand-drawn infographic
+  on a whiteboard or premium off-white notebook page.
+- Use ONLY these marker colors:
+  - Black marker: all main text, structure lines, primary doodles
+  - Orange marker (#E8611A): highlighted keywords, underlines, emphasis
+    circles, section headers, key callouts
+  - Dark charcoal (#2D2D2D): supporting/secondary text
+  - Orange highlighter at ~40% opacity: keyword highlighting
+- Do NOT use blue, red, green, or any other colors.
+- Lines must be slightly imperfect and wobbly like real handwriting.
+- All text must be handwritten (NO digital fonts anywhere in the image).
+- Include small hand-drawn doodles/icons (arrows, light bulbs, checkmarks,
+  stars, boxes, gears) in black with orange accents.
+- Keep the design clean, structured, and highly readable.
+
+LAYOUT:
+- Dimensions: 1080 x 1350 pixels (portrait format).
+- Title at the top in big bold marker lettering with orange underline.
+- ${args.sections.length} clear sections with hand-drawn separators/arrows.
+- Each section should have:
+   • a mini-heading (orange marker or black with orange underline)
+   • 2–4 bullet points (black marker)
+   • one simple hand-drawn icon/doodle
+- Use hand-drawn boxes, arrows, separators, and highlights to guide the eye.
+- Include a key takeaway boxed or circled near the bottom.
+
+VISUAL CLARITY RULES:
+- Make text large and legible (this will be viewed on mobile phones).
+- Do not overcrowd the page — generous whitespace between sections.
+- Highlight only the most important words (2-3 per section maximum).
+
+BOTTOM CTA:
+Add handwritten text at the bottom:
+"Follow @DiegoVences for more AI + Sales content"
+
+IMAGE FORMAT:
+- 1080 x 1350 pixels, portrait orientation.
+- Bright natural lighting with slight realistic shadows.
+- Background should be whiteboard or premium paper texture.
+- The final image should look like a real photograph taken of a
+  physical whiteboard/notebook — not a digital design.`;
+
+        try {
+          // Use Gemini 2.0 Flash for image generation
+          const response = await ai.models.generateContent({
+            model: 'gemini-2.0-flash-exp-image-generation',
+            contents: infographicPrompt,
+            config: {
+              responseModalities: ['image', 'text'],
+            },
+          });
+
+          // Extract image from response
+          const parts = response.candidates?.[0]?.content?.parts || [];
+          for (const part of parts) {
+            if (part.inlineData) {
+              const imageBytes = part.inlineData.data;
+              const mimeType = part.inlineData.mimeType || 'image/png';
+              const ext = mimeType.includes('jpeg') ? 'jpg' : 'png';
+              const outputPath = args.outputPath || path.join(process.cwd(), `infographic-${Date.now()}.${ext}`);
+
+              const buffer = Buffer.from(imageBytes, 'base64');
+              fs.writeFileSync(outputPath, buffer);
+
+              return {
+                content: [
+                  {
+                    type: 'text',
+                    text: JSON.stringify({
+                      status: 'image_generated',
+                      imagePath: outputPath,
+                      topic: args.topic,
+                      sections: args.sections.length,
+                    }),
+                  },
+                ],
+              };
+            }
+          }
+
+          // Fallback: return prompt if no image was generated
+          return {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify({
+                  status: 'prompt_ready',
+                  prompt: infographicPrompt,
+                  topic: args.topic,
+                  message: 'Model did not return an image. Use this prompt with Imagen API.',
+                  suggestedFilename: args.outputPath || 'infographic.png',
+                }),
+              },
+            ],
+          };
+        } catch (genError) {
+          // Fallback to prompt-only mode
+          return {
+            content: [
+              {
+                type: 'text',
+                text: JSON.stringify({
+                  status: 'prompt_ready',
+                  prompt: infographicPrompt,
+                  topic: args.topic,
+                  message: `Image generation failed (${genError.message}). Use this prompt with Imagen API.`,
+                  suggestedFilename: args.outputPath || 'infographic.png',
+                }),
+              },
+            ],
+          };
+        }
       }
 
       default:

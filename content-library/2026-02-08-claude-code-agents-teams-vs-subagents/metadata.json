@@ -1,0 +1,21 @@
+{
+  "title": "Claude Code: Sub-Agents vs Agent Teams",
+  "date": "2026-02-08",
+  "platform": "linkedin",
+  "audience": "career_pivot",
+  "content_type": "what_i_built",
+  "visual_type": "infographic",
+  "theme": "ai_automation",
+  "status": "draft",
+  "files": {
+    "post": "linkedin-post.md",
+    "infographic": "infographic.png",
+    "prompt": "prompt-used.md"
+  },
+  "tags": ["claude-code", "ai-agents", "multi-agent", "build-in-public"],
+  "source": "https://www.youtube.com/watch?v=1jlKUxqRQAw",
+  "safety_check": {
+    "employment_safe": true,
+    "framing": "personal_experiment"
+  }
+}

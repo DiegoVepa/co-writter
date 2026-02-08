@@ -476,6 +476,218 @@ Chevrons if part of carousel
 
 ---
 
+### Template 4: HAND-DRAWN INFOGRAPHIC
+
+**Tool:** Nano Banana MCP (required — this is an AI-generated image, not a Canva template)
+
+#### When to Use
+- Post contains a framework, process, or model with 3-5 distinct sections
+- Content is educational or "how-to" in nature
+- Agent or user explicitly selects "infographic" as visual type
+- Works for BOTH audience segments (Career Pivot and Agency Build)
+
+#### Style Description
+The image must look like a **real photograph of a hand-drawn infographic** on a whiteboard or notebook page. It should feel personal, approachable, and human — like Diego sketched it out while explaining a concept to a colleague.
+
+#### 4.4.1 Brand-Adapted Infographic Specifications
+
+**MEDIUM:**
+- Whiteboard or premium off-white paper texture background
+- Bright, natural lighting with slight realistic shadows
+- Looks like an actual photograph of a physical drawing (not a digital mockup)
+
+**MARKER COLORS (adapted to Diego's brand):**
+```
+Primary marker:     Black — all main text and structure lines
+Accent marker:      Orange (#E8611A) — highlighted keywords, underlines,
+                    emphasis circles, section headers
+Secondary marker:   Dark charcoal (#2D2D2D) — supporting text, sub-bullets
+Highlighter:        Orange/amber at ~40% opacity — keyword highlighting
+Optional accent:    Warm gray — shadows, depth lines, secondary doodles
+```
+
+**IMPORTANT:** Do NOT use blue, red, or green markers. The hand-drawn style uses Diego's brand orange (#E8611A) as the ONLY color accent, keeping visual consistency with his LinkedIn brand. All emphasis that would traditionally be "red" or "blue" becomes orange.
+
+**HANDWRITING STYLE:**
+- All text MUST be handwritten (NO digital fonts anywhere)
+- Lines slightly imperfect and wobbly like real marker writing
+- Headlines: Large, bold marker lettering (thick strokes)
+- Body text: Clean but clearly hand-drawn, highly legible
+- Emphasis: Underlines, circles around keywords, double-underlines — all in orange
+
+**DOODLES & ICONS:**
+- Small hand-drawn icons: arrows, light bulbs, checkmarks, stars, boxes, gears
+- Drawn in black marker with orange accent fills or highlights
+- Style: Simple, sketch-like, recognizable — NOT polished or complex
+- Used to anchor each section visually
+- Include directional arrows between sections to show flow
+
+#### 4.4.2 Layout Specification
+
+**Dimensions:** 1080 x 1350 px (portrait — Instagram/LinkedIn carousel format)
+
+```
+┌──────────────────────────────────────────┐
+│                                          │
+│  ╔══════════════════════════════════╗     │
+│  ║  TITLE IN BIG BOLD MARKER       ║     │
+│  ║  (orange underline beneath)     ║     │
+│  ╚══════════════════════════════════╝     │
+│                                          │
+│  ┌─ Section 1 ─────────────────────┐     │
+│  │ [icon]  Mini-heading (orange)   │     │
+│  │  • Bullet point one             │     │
+│  │  • Bullet point two             │     │
+│  │  • Key word [highlighted]       │     │
+│  └─────────────────────────────────┘     │
+│         ↓ (hand-drawn arrow)             │
+│  ┌─ Section 2 ─────────────────────┐     │
+│  │ [icon]  Mini-heading (orange)   │     │
+│  │  • Bullet point one             │     │
+│  │  • Bullet point two             │     │
+│  │  • Key word [highlighted]       │     │
+│  └─────────────────────────────────┘     │
+│         ↓ (hand-drawn arrow)             │
+│  ┌─ Section 3 ─────────────────────┐     │
+│  │ [icon]  Mini-heading (orange)   │     │
+│  │  • Bullet point one             │     │
+│  │  • Bullet point two             │     │
+│  └─────────────────────────────────┘     │
+│         ↓                                │
+│  ┌─ Section 4 (optional) ──────────┐     │
+│  │ [icon]  Mini-heading (orange)   │     │
+│  │  • Bullet point                 │     │
+│  └─────────────────────────────────┘     │
+│                                          │
+│  ┌──────────────────────────────────┐    │
+│  │ ★ KEY TAKEAWAY (circled/boxed)  │    │
+│  │   in orange with emphasis       │    │
+│  └──────────────────────────────────┘    │
+│                                          │
+│  Follow @DiegoVences for more            │
+│  AI + Sales content                      │
+│                                          │
+└──────────────────────────────────────────┘
+
+All borders, boxes, and separators are hand-drawn lines.
+Sections separated by hand-drawn arrows or divider lines.
+```
+
+**LAYOUT RULES:**
+- Title at the top in big bold marker lettering with orange underline
+- 3–5 clear sections, each containing:
+  - A mini-heading (in orange marker or black with orange underline)
+  - 2–4 bullet points (black marker, handwritten)
+  - One simple hand-drawn icon/doodle
+- Hand-drawn boxes, arrows, separators, and highlights to guide the eye
+- Emphasis through: underlines, circles, and highlighted keywords (all orange)
+- Key takeaway boxed or circled near the bottom
+- CTA at the very bottom
+
+**VISUAL CLARITY RULES:**
+- Text must be large and legible — this gets viewed on mobile
+- Do NOT overcrowd the page
+- Generous whitespace between sections
+- Highlight ONLY the most important words (2-3 per section max)
+- Every section must be clearly separated from the next
+
+#### 4.4.3 Nano Banana Prompt Template
+
+```
+You are a visual infographic designer.
+Turn the following LinkedIn post into a single hand-drawn infographic image.
+
+TOPIC:
+[TOPIC FROM POST]
+
+CONTENT TO VISUALIZE:
+[FULL POST TEXT OR STRUCTURED NOTES]
+
+OUTPUT REQUIREMENTS:
+Generate ONE single image only.
+
+STYLE:
+- The image must look like a real photograph of a hand-drawn infographic
+  on a whiteboard or premium off-white notebook page.
+- Use ONLY these marker colors:
+  - Black marker: all main text, structure lines, primary doodles
+  - Orange marker (#E8611A): highlighted keywords, underlines, emphasis
+    circles, section headers, key callouts
+  - Dark charcoal (#2D2D2D): supporting/secondary text
+  - Orange highlighter at ~40% opacity: keyword highlighting
+- Do NOT use blue, red, green, or any other colors.
+- Lines must be slightly imperfect and wobbly like real handwriting.
+- All text must be handwritten (NO digital fonts anywhere in the image).
+- Include small hand-drawn doodles/icons (arrows, light bulbs, checkmarks,
+  stars, boxes, gears) in black with orange accents.
+- Keep the design clean, structured, and highly readable.
+
+LAYOUT:
+- Dimensions: 1080 x 1350 pixels (portrait format).
+- Title at the top in big bold marker lettering with orange underline.
+- Divide the infographic into [3/4/5] clear sections.
+- Each section should have:
+   • a mini-heading (orange marker or black with orange underline)
+   • 2–4 bullet points (black marker)
+   • one simple hand-drawn icon/doodle
+- Use hand-drawn boxes, arrows, separators, and highlights to guide the eye.
+- Use emphasis through underlines, circles, and highlighted keywords
+  (all in orange).
+- Include a key takeaway boxed or circled near the bottom.
+
+VISUAL CLARITY RULES:
+- Make text large and legible (this will be viewed on mobile phones).
+- Do not overcrowd the page — generous whitespace between sections.
+- Highlight only the most important words (2-3 per section maximum).
+
+BOTTOM CTA:
+Add handwritten text at the bottom:
+"Follow @DiegoVences for more AI + Sales content"
+
+IMAGE FORMAT:
+- 1080 x 1350 pixels, portrait orientation.
+- Bright natural lighting with slight realistic shadows.
+- Background should be whiteboard or premium paper texture.
+- The final image should look like a real photograph taken of a
+  physical whiteboard/notebook — not a digital design.
+```
+
+#### 4.4.4 Decision: When Infographic vs Carousel
+
+| Signal | Use Infographic | Use Carousel |
+|---|---|---|
+| Process/framework with 3-5 steps | Either works | Either works |
+| Agent/user says "infographic" | Always | |
+| Heavy data/stats/comparisons | | Carousel better |
+| Narrative/story-driven post | | Carousel better |
+| Educational "how-to" | Great fit | Also works |
+| Single bold insight/quote | | Use Quote Card instead |
+| Post has Diego's photo as key element | | Carousel (photo placement) |
+| Want organic/approachable feel | Perfect | |
+| Want polished/professional feel | | Carousel |
+
+**Rule:** If the user says "infographic" at any point, ALWAYS use this template. Do not default to carousel.
+
+#### 4.4.5 Infographic Quality Checklist
+
+Before delivering an infographic, verify:
+
+- [ ] Image looks like a REAL photograph of a whiteboard/paper (not digital)
+- [ ] ONLY black and orange (#E8611A) markers used — no blue, red, green
+- [ ] All text is handwritten — zero digital fonts visible
+- [ ] 3-5 clear sections with hand-drawn separators/arrows
+- [ ] Each section has: heading + bullets + doodle icon
+- [ ] Orange used for: headings, underlines, highlights, emphasis only
+- [ ] Text is large enough to read on mobile
+- [ ] Generous whitespace — not overcrowded
+- [ ] Key takeaway is visually emphasized (boxed, circled, or highlighted)
+- [ ] @DiegoVences CTA at bottom
+- [ ] Dimensions: 1080 x 1350 px
+- [ ] No employment-unsafe language
+- [ ] Prompt saved in `prompt-used.md`
+
+---
+
 ## 5. Prompt Templates
 
 ### 5.1 Nano Banana — Cinematic Quote Card Background
@@ -641,12 +853,16 @@ Include:
 | Career Pivot (Segment A) | Framework/model | Light Carousel | Canva |
 | Career Pivot (Segment A) | Personal narrative | Light Carousel | Canva |
 | Career Pivot (Segment A) | Bold insight/quote | Cinematic Quote Card | Nano Banana + text overlay |
+| Career Pivot (Segment A) | Educational how-to | **Infographic** | **Nano Banana** |
 | Agency Build (Segment B) | Comparison/data | Dark Carousel | Canva |
 | Agency Build (Segment B) | Industry observation | Dark Carousel | Canva |
 | Agency Build (Segment B) | ROI/case study | Dark Carousel | Canva |
+| Agency Build (Segment B) | How-to for SMBs | **Infographic** | **Nano Banana** |
 | Both Audiences | Tool review | Light or Dark | Canva |
 | Both Audiences | Single hook image | Quote Card | Nano Banana + Canva overlay |
 | Both Audiences | Framework share | Light Carousel | Canva |
+| Both Audiences | Process/framework (visual) | **Infographic** | **Nano Banana** |
+| Any | User says "infographic" | **Infographic** | **Nano Banana** |
 
 ---
 
@@ -796,16 +1012,18 @@ What type of creative do you want for this post?
 ```
 Do you want to include your photo in this creative?
 
-1. Yes - use existing cutout photo (/assets/photos/diego-cutout.png)
-2. Yes - use existing dark background photo (/assets/photos/diego-dark.png)
+1. Yes - use existing cutout photo (transparent background)
+2. Yes - use existing photo with background
 3. Yes - generate new photo composite via Nano Banana (I'll ask for scene description)
 4. No photo needed for this one
 ```
 
 **Photo file locations:**
-- Cutout (transparent bg): `/assets/photos/diego-cutout.png`
-- Dark background: `/assets/photos/diego-dark.png`
+- Cutout (transparent bg): `/assets/photos/diego-transparent.png`
+- With background: `/assets/photos/diego-cutout.jpg`
 - Generated composites: Save to `/assets/photos/generated/`
+
+**Before selecting, analyze available photos in `/assets/photos/` using the `suggest_photo` tool to pick the best match for the post topic.**
 
 **If user selects Nano Banana generation:**
 Ask: "Describe the scene or background you want for the photo composite (e.g., 'modern tech office', 'dark gradient with subtle tech elements', 'standing at whiteboard')"
@@ -854,7 +1072,36 @@ Here are your visuals for review. Do you approve, or would you like changes?
 2. Export PNG files for individual slides
 3. Save all assets to content library folder
 4. Update metadata.json with asset paths
-5. Commit and push to GitHub
+5. **Copy all images to `/pictures-generated/[date]-[post-slug]/` for easy access**
+6. Open the pictures-generated folder in Finder: `open /pictures-generated/[date]-[post-slug]/`
+
+### Step 6: Easy Access Folder
+
+**ALWAYS copy generated visuals to the easy-access folder:**
+
+```bash
+# Create folder with date and post name
+mkdir -p /pictures-generated/YYYY-MM-DD-post-slug/
+
+# Copy all generated images
+cp content-library/YYYY-MM-DD-post-slug/*.png /pictures-generated/YYYY-MM-DD-post-slug/
+cp content-library/YYYY-MM-DD-post-slug/*.jpg /pictures-generated/YYYY-MM-DD-post-slug/
+
+# Open in Finder for user
+open /pictures-generated/YYYY-MM-DD-post-slug/
+```
+
+**Folder structure:**
+```
+/pictures-generated/
+  └── 2026-02-08-post-name/
+      ├── infographic.png
+      ├── slide-01.png
+      ├── slide-02.png
+      └── carousel.pdf
+```
+
+This gives the user a clean folder to grab images from without navigating the full content-library.
 
 ---
 
@@ -884,8 +1131,8 @@ Here are your visuals for review. Do you approve, or would you like changes?
   "question": "Include your photo in this creative?",
   "header": "Photo",
   "options": [
-    {"label": "Existing cutout", "description": "Use diego-cutout.png (transparent bg)"},
-    {"label": "Existing dark bg", "description": "Use diego-dark.png"},
+    {"label": "Transparent cutout", "description": "Use diego-transparent.png (no background)"},
+    {"label": "With background", "description": "Use diego-cutout.jpg (natural setting)"},
     {"label": "Generate new", "description": "Create via Nano Banana (I'll ask for scene)"},
     {"label": "No photo", "description": "Skip photo for this one"}
   ],
