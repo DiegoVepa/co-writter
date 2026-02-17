@@ -82,6 +82,7 @@ Load the content-type SOP for structural guidance.
 **Files:**
 - [linkedin-post.md](../content-types/linkedin-post.md) - standard posts
 - [linkedin-carousel.md](../content-types/linkedin-carousel.md) - slide format
+- [linkedin-carousel-screenshots.md](../content-types/linkedin-carousel-screenshots.md) - carousel with real screenshots
 - [linkedin-case-study.md](../content-types/linkedin-case-study.md) - deep-dive builds
 - [x-thread.md](../content-types/x-thread.md) - Twitter threads
 - [substack-essay.md](../content-types/substack-essay.md) - long-form essays
@@ -327,6 +328,7 @@ Example: "I could frame this as 'What I Built' (technical depth) or 'Boring Busi
 | Build for Career audience (LinkedIn) | segment-a-career.md | what-i-built.md, linkedin-post.md | "What I Built" |
 | Build for Agency audience (LinkedIn) | segment-b-agency.md | what-i-built.md or boring-business.md, linkedin-post.md | "Problem-First" or "Before/After" |
 | Framework/Carousel (Career) | segment-a-career.md | linkedin-carousel.md | "Contrarian" or "Reframe" |
+| **Carousel with screenshots** | linkedin-carousel-screenshots.md | Audience SOP, linkedin-visuals.md | "FROM X → TO Y" transformation |
 | X thread (build-in-public) | what-i-built.md | x-thread.md | "What I Built" or "Lesson Learned" |
 | Boring business thought leadership | boring-business.md | segment-b-agency.md, linkedin-post.md | "Contrarian" |
 | Substack deep-dive | segment-a-career.md | substack-essay.md, what-i-built.md | Essay hook (can build slowly) |

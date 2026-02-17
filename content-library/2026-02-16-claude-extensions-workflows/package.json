@@ -1,0 +1,16 @@
+{
+  "name": "2026-02-16-claude-extensions-workflows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate-carousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

@@ -8,8 +8,8 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@google/genai": "^1.41.0",
     "@modelcontextprotocol/sdk": "^1.0.0",
-    "@google/genai": "^1.0.0",
     "dotenv": "^16.4.5"
   }
 }
