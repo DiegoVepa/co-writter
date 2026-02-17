@@ -996,12 +996,18 @@ What type of creative do you want for this post?
 
 1. Carousel (multi-slide, swipeable) - Best for frameworks, step-by-step, tutorials
 2. Single Image (quote card, hook) - Best for bold statements, hooks
-3. Infographic (data/stats visual) - Best for proof points, research findings
-4. GIF/Animation (motion) - Best for engagement, simple demos
-5. Video (full motion graphics) - Best for tutorials, walkthroughs
-6. Case Study Essay (long-form) - Best for Substack deep dives
-7. Text-only (no visual needed)
+3. Infographic (hand-drawn style) - Best for proof points, research findings
+4. Before/After comparison - Best for showing transformation (manual → automated)
+5. Data visualization (chart) - Best for ROI, time savings, cost comparisons
+6. Screenshot carousel - Best for tool walkthroughs with real interface demos
+7. GIF/Animation (motion) - Best for engagement, simple demos
+8. Text-only (no visual needed)
 ```
+
+**Generator scripts for new types:**
+- Before/After: `node scripts/generate-before-after.js --slug <slug>`
+- Data viz: `node scripts/generate-data-viz.js --slug <slug> --type roi|bar|doughnut`
+- Screenshot carousel: `node scripts/generate-screenshot-carousel.js --slug <slug>`
 
 **Use AskUserQuestion tool with these options.**
 

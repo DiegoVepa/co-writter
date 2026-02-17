@@ -1,0 +1,45 @@
+{
+  "title": "5 AI Tools HVAC Contractors Are Using to Save 10+ Hours/Week",
+  "slug": "hvac-ai-tools",
+  "date_created": "2026-02-16",
+  "platform": ["linkedin"],
+  "content_type": "carousel",
+  "audience": "agency",
+  "theme": "boring-business",
+  "hook_type": "contrarian",
+  "status": "draft",
+  "safety_review": "passed",
+  "word_count": 450,
+  "tags": ["hvac", "automation", "small-business", "ai-tools", "boring-business"],
+  "assets": {
+    "carousel": "carousel-hvac-ai-tools.pptx",
+    "slides": [
+      "Title: 5 AI Tools HVAC Contractors Are Using",
+      "The Problem: Drowning in Manual Work",
+      "Tool #1: 24/7 Virtual Agent",
+      "Tool #2: Smart Scheduling & Dispatch",
+      "Tool #3: Appointment Reminders",
+      "Tool #4: Quote & Invoice Follow-ups",
+      "Tool #5: AI-Powered Diagnostics",
+      "Summary: Boring Automation That Pays For Itself"
+    ]
+  },
+  "hashtags": ["#HVAC", "#SmallBusiness", "#Automation"],
+  "research_sources": [
+    "https://www.achrnews.com/articles/165647-5-realistic-ways-ai-can-empower-your-hvac-business-in-2026",
+    "https://www.housecallpro.com/resources/ai-for-hvac-business/",
+    "https://quantrahq.com/servicetitan-competitors-2026-ai-powered-alternatives/"
+  ],
+  "before_after": {
+    "title": "HVAC BUSINESS: BEFORE → AFTER",
+    "subtitle": "What changes with simple AI tools",
+    "comparisons": [
+      { "before": "30% no-shows", "after": "12% no-shows" },
+      { "before": "6 hrs/week scheduling", "after": "Automated routing" },
+      { "before": "Chasing invoices manually", "after": "Auto-reminders at 3, 7, 14 days" },
+      { "before": "Missed calls = lost leads", "after": "24/7 virtual agent" },
+      { "before": "$2K+/month lost", "after": "$2K+/month recovered" }
+    ],
+    "takeaway": "Total investment: $100-300/month. ROI: Week one."
+  }
+}
