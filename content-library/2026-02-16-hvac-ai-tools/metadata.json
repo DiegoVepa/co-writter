@@ -7,21 +7,22 @@
   "audience": "agency",
   "theme": "boring-business",
   "hook_type": "contrarian",
-  "status": "draft",
+  "status": "ready",
   "safety_review": "passed",
   "word_count": 450,
   "tags": ["hvac", "automation", "small-business", "ai-tools", "boring-business"],
   "assets": {
-    "carousel": "carousel-hvac-ai-tools.pptx",
+    "carousel": "carousel-hvac-v2.pptx",
+    "carousel_legacy": "carousel-hvac-ai-tools.pptx",
     "slides": [
-      "Title: 5 AI Tools HVAC Contractors Are Using",
-      "The Problem: Drowning in Manual Work",
-      "Tool #1: 24/7 Virtual Agent",
-      "Tool #2: Smart Scheduling & Dispatch",
-      "Tool #3: Appointment Reminders",
-      "Tool #4: Quote & Invoice Follow-ups",
-      "Tool #5: AI-Powered Diagnostics",
-      "Summary: Boring Automation That Pays For Itself"
+      "Slide 1: $108K/YEAR - Hook with shocking stat",
+      "Slide 2: The Revenue Leak - Calculator visual",
+      "Slide 3: Tool #1 - 24/7 Virtual Agent + Real Quote",
+      "Slide 4: Tool #2 - Smart Scheduling (12 hrs/week table)",
+      "Slide 5: Tool #3 - Appointment Reminders (Before/After)",
+      "Slide 6: Tool #4 - Invoice Automation (Sequence)",
+      "Slide 7: Tool #5 - AI Diagnostics (Flow + 37% stat)",
+      "Slide 8: Full ROI Stack ($315 → $9,100 = 29x)"
     ]
   },
   "hashtags": ["#HVAC", "#SmallBusiness", "#Automation"],
