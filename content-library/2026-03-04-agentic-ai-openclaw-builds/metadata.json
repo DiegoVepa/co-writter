@@ -1,0 +1,17 @@
+{
+  "title": "The World Is Going Agentic — Here's What I've Been Building",
+  "slug": "agentic-ai-openclaw-builds",
+  "date_created": "2026-03-04",
+  "platform": ["linkedin"],
+  "content_type": "text-post",
+  "audience": "both",
+  "theme": "what-i-built",
+  "hook_type": "contrarian",
+  "status": "draft",
+  "safety_review": "passed",
+  "word_count": 220,
+  "tags": ["agentic-ai", "openclaw", "claude-code", "mac-mini", "telegram", "build-in-public", "b2b"],
+  "assets": {},
+  "hashtags": ["#AI", "#AgenticAI", "#BuildInPublic"],
+  "notes": "Overlap post targeting both Career Pivot (systems thinking, builder credibility) and Agency/SMB (B2B opportunity, purpose-built agents). References OpenClaw by Peter Steinberger (Nov 2025 launch, 247K GitHub stars as of March 2026) and Claude Code agents. Two concrete builds: Telegram news curation bot + goal-tracking agent."
+}
