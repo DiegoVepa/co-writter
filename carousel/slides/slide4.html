@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body { margin: 0; padding: 0; }
+body {
+  width: 540pt; height: 540pt;
+  background: #2D2D2D; font-family: Arial, sans-serif;
+  position: relative; overflow: hidden;
+}
+.wrap {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 440pt;
+}
+h1 {
+  color: #FFFFFF; font-size: 34pt; text-align: center;
+  margin: 0 0 50pt 0;
+}
+.flow {
+  display: flex; flex-direction: row; align-items: center; justify-content: center;
+}
+.step {
+  padding: 14pt 22pt; background: #3A3A3A;
+  border: 2pt solid #E67E22; border-radius: 8pt;
+}
+.step p {
+  color: #E67E22; font-size: 18pt; margin: 0; text-align: center;
+}
+.arrow {
+  margin: 0 12pt;
+}
+.arrow p {
+  color: #E67E22; font-size: 26pt; margin: 0;
+}
+p.tagline {
+  color: #999999; font-size: 14pt; text-align: center;
+  margin: 45pt 0 0 0;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Speed is leverage.</h1>
+  <div class="flow">
+    <div class="step"><p>DATA</p></div>
+    <div class="arrow"><p>&#8594;</p></div>
+    <div class="step"><p>DECISION</p></div>
+    <div class="arrow"><p>&#8594;</p></div>
+    <div class="step"><p>EXECUTION</p></div>
+  </div>
+  <p class="tagline">Reduce the time between each stage.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "date_created": "2026-02-24",
+  "title": "The Agentic Shift: Orchestration, Not Models",
+  "platform": ["linkedin"],
+  "audience": "both",
+  "theme": "what-i-built",
+  "hook_type": "what-i-built",
+  "status": "draft",
+  "published_date": null,
+  "published_url": null,
+  "performance": {
+    "views": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "inbound_dms": null,
+    "notes": ""
+  },
+  "assets": [],
+  "tags": ["agentic-ai", "orchestration", "claude-code", "opus-4.6", "gemini", "ralph-loop", "openclaw", "ai-agents", "automation"],
+  "safety_review": "passed",
+  "word_count": 468,
+  "language_variants": {
+    "primary": "en",
+    "available": ["en"],
+    "files": {
+      "en": "linkedin-post.md"
+    }
+  }
+}
